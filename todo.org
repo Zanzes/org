@@ -69,7 +69,19 @@ DEADLINE: <2019-05-02 Thu> SCHEDULED: <2019-05-01 Wed>
 *** Dues
 **** 200 kr.
      SCHEDULED: <2019-04-30 Tue>
-
+** Simon (kim)
+*** Scheduled
+**** TODO Fix arduino
+SCHEDULED: <2019-05-02 Thu 21:00>
+:LOGBOOK:
+- State "TODO"       from              [2019-05-02 Thu 00:50]
+:END:
+** Mormor
+*** Dues
+**** TODO Payback 170
+:LOGBOOK:
+- State "TODO"       from              [2019-05-02 Thu 00:52]
+:END:
 * Remember
 ** Cleaning [0/5]
 *** Bedroom [0/2]

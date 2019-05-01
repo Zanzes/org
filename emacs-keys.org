@@ -51,4 +51,21 @@ C-c C-t
 
 * Movement
 ** Switch/Next window
-   C-x o
+- C-x o
+** Reset exwm
+- S-r
+** Switch workspace
+- S-w (S-n)
+  + n = 1-9
+** Fullscreen
+- C-c C-f
+** Hide floating window
+- C-c C-h
+** Switch to char-mode 
+- C-c C-k
+** Move window 
+- C-c C-m
+** Toggle tile/floating
+- C-c C-t C-f
+** Toggle modeline
+- C-c C-t C-m
