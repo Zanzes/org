@@ -1,0 +1,54 @@
+C = *Control*
+M = *Alt*
+S = *Win*
+
+* Avy
+** Go to char
+   M-s
+   
+* Config
+** Reload
+   C-c r
+
+** Open lzconf.org
+   C-c e
+
+* Org
+** Load #+ line
+1. Put cursor at end of line
+2. C-c C-c
+
+** Checlists
+*** Create new item
+M-Shift-return
+
+*** Check
+C-c C-c
+
+*** Display check status
+**** [x/x]
+1. write [/] in header
+2. C-c C-c on it
+
+**** [x%]
+1. write [%] in header
+2. C-c C-c on it
+
+** Dating
+*** Open calender
+C-c C-s
+
+*** TODO Schedule event
+- C-c C-s
+  + Must be on headline
+
+*** Add deadline
+- C-c C-d
+  + Must be on headline
+
+** Mark with todo keyword
+C-c C-t
+
+* Movement
+** Switch/Next window
+   C-x o

@@ -1,0 +1,136 @@
+* Rubiks Cubes
+** 2x2x2
+*** Status: 
+**** Solved! (No guide)
+
+
+*** Difficulty:
+    2/5
+
+** 3x3x3
+*** Status
+**** Solved! (No guide)
+
+
+*** Difficulty:
+    3/5
+
+** 4x4x4
+*** Status
+**** Solved! (No guide)
+
+*** Difficulty:
+    4/5
+
+** 5x5x5
+*** Status
+**** Solved! (No guide)
+
+*** Difficulty:
+    3/5
+
+** 6x6x6
+*** Status
+**** Solved! (No guide)
+
+*** Difficulty:
+    3/5
+
+** 7x7x7
+*** Status
+**** Solved! (No guide)
+
+** 9x9x9
+*** Status
+**** Not solved
+
+** 3x3x9
+*** Status
+**** Not solved
+
+** Ancient Coin Cube
+*** Status
+**** Solved! (No guide)
+
+** Barrel 3x3
+*** Status
+**** Solved! (No guide)
+
+** Container Cube
+*** Status
+**** Not solved
+
+** Curvy Copter Plus
+*** Status
+**** Solved! (No guide)
+
+** Fisher Cube
+*** Status
+**** Solved! (No guide)
+
+** Gear Cube
+*** Status
+**** Solved! (No guide)
+
+** Ghost Cube
+*** Status
+**** Not solved
+
+** Ivy Cube
+*** Status
+**** Solved! (No guide)
+
+** Megaminx
+*** Status
+**** Solved!
+
+** Mosaic Cube
+*** Status
+**** Solved! (No guide)
+
+** Pyraminx
+*** Status
+**** Solved!
+
+** Sandwitch Cube
+*** Status
+**** Solved! (No guide)
+
+** Scewb
+*** Status
+**** Solved! (No guide)
+* PCs
+** 1. (Medion)
+*** CPU:
+**** Intel core 2 duo 1.5GHz
+
+*** RAM:
+**** 1G x 2 = 2G
+
+** 2. (Acer)
+*** CPU:
+**** amd athlon 64 x2 dual-core TK-55 1.8GHz
+
+*** RAM:
+**** 1G x 2 = 2G
+
+** 3. (Lenovo)
+*** CPU:
+**** Intel Celeron Processor 530 1.73 GHz
+
+*** RAM:
+**** 1G x 2 = 2G 
+
+** 4. (Packard Bell)
+*** CPU:
+**** 
+
+*** RAM:
+**** 
+
+** 5. ()
+*** CPU:
+**** 
+
+*** RAM:
+****

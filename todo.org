@@ -1,0 +1,104 @@
+* Projects
+** Configure emacs [0/1]
+***  Watch uncle Daves "Emacs" playlist [12/23]
+      + [X] Video 1
+      + [X] Video 2
+      + [X] Video 3
+      + [X] Video 4
+      + [X] Video 5
+      + [X] Video 6
+      + [X] Video 7
+      + [X] Video 8
+      + [X] Video 9
+      + [X] Video 10
+      + [X] Video 11
+      + [X] Video 12
+      + [ ] Video 13
+      + [ ] Video 14
+      + [ ] Video 15
+      + [ ] Video 16
+      + [ ] Video 17
+      + [ ] Video 18
+      + [ ] Video 19
+      + [ ] Video 20
+      + [ ] Video 21
+      + [ ] Video 22
+      + [ ] Video 23
+      + [ ] Video 24
+
+* People
+** Sander
+*** Scheduled
+**** DONE Try new shit
+SCHEDULED: <2019-05-01 Wed>
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-01 Wed 17:02]
+- State "ACTIVE"     from              [2019-05-01 Wed 16:10]
+:END:
+
+**** ACTIVE Decide on amount
+DEADLINE: <2019-05-02 Thu> SCHEDULED: <2019-05-01 Wed>
+:LOGBOOK:
+- State "ACTIVE"     from              [2019-05-01 Wed 17:03]
+:END:
+
+** Rasmus
+
+*** Mentions
+    - Rent for storage
+
+** Sandra
+*** Schedule
+    SCHEDULED: <2019-04-30 Tue>
+    - 10 x X
+
+** Frede
+*** Dues
+    300 - 500 ?
+
+** Emil
+*** Dues
+    600
+
+** Patrick
+*** Dues
+**** 200 kr.
+    SCHEDULED: <2019-04-30 Tue>
+
+** Mark? (Patrick)
+*** Dues
+**** 200 kr.
+     SCHEDULED: <2019-04-30 Tue>
+
+* Remember
+** Cleaning [0/5]
+*** Bedroom [0/2]
+**** Unfuck wires [3/6]
+DEADLINE: <2019-05-03 Fri> SCHEDULED: <2019-04-30 Tue>
+
+- [X] Sort wires
+- [X] Consider and chose storage location
+- [X] Put wires in wrack
+- [ ] Find place for rack
+- [ ] Consider and chose storage location(Big wires and scratch wires)
+- [ ] Put away big and scratch wire
+
+**** Cleanup tools [0/2]
+
+- [ ] Sort tools
+- [ ] Place tools in storage
+*** Living room [0/1]
+****  Shelvs [0/2]
+- [ ] Left
+- [ ] Right
+*** Kitchen [0/0]
+*** Bathroom [0/0]
+*** Hallway [0/1]
+- [ ] Closet
+
+** DONE Go get som food
+DEADLINE: <2019-04-30 Tue 18:00> SCHEDULED: <2019-04-30 Tue>
+:LOGBOOK:
+   - State "DONE"       from "TODO"       [2019-04-30 Tue 23:55]
+   - State "TODO"       from              [2019-04-30 Tue 15:52]
+   :END:
