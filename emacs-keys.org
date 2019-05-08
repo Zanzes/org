@@ -1,17 +1,513 @@
+#+ARCHIVE: archive/emacs-keys.org
+
 C = *Control*
 M = *Alt*
 S = *Win*
 
+
+* Keys
+** Getting Started:
+*** To read the on-line documentation try
+- M-x org-info
+** Visibility Cycling:
+*** To read the on-line documentation tryrotate current subtree between states
+- TAB- M-x org-info
+*** To read the on-line documentation tryrotate entire buffer between states
+- S-TAB- M-x org-info
+*** To read the on-line documentation tryrestore property-dependent startup visibility
+- C-u C-u TAB- M-x org-info
+*** To read the on-line documentation tryshow the whole file, including drawers
+- C-u C-u C-u TAB- M-x org-info
+*** To read the on-line documentation tryreveal context around point
+- C-c C-r- M-x org-info
+** Motion:
+*** To read the on-line documentation trynext/previous heading
+- C-c C-n/p- M-x org-info
+*** To read the on-line documentation trynext/previous heading, same level
+- C-c C-f/b- M-x org-info
+*** To read the on-line documentation trybackward to higher level heading
+- C-c C-u- M-x org-info
+*** To read the on-line documentation tryjump to another place in document
+- C-c C-j- M-x org-info
+*** To read the on-line documentation tryprevious/next plain list item
+- S-UP/DOWN- M-x org-info
+** Structure Editing:
+*** To read the on-line documentation tryinsert new heading/item at current level
+- M-RET- M-x org-info
+*** To read the on-line documentation tryinsert new heading after subtree
+- C-RET- M-x org-info
+*** To read the on-line documentation tryinsert new TODO entry/checkbox item
+- M-S-RET- M-x org-info
+*** To read the on-line documentation tryinsert TODO entry/ckbx after subtree
+- C-S-RET- M-x org-info
+*** To read the on-line documentation tryturn (head)line into item, cycle item type
+- C-c -- M-x org-info
+*** To read the on-line documentation tryturn item/line into headline
+- C-c *- M-x org-info
+*** To read the on-line documentation trypromote/demote heading
+- M-LEFT/RIGHT- M-x org-info
+*** To read the on-line documentation trypromote/demote current subtree
+- M-S-LEFT/RIGHT- M-x org-info
+*** To read the on-line documentation trymove subtree/list item up/down
+- M-S-UP/DOWN- M-x org-info
+*** To read the on-line documentation trysort subtree/region/plain-list
+- C-c ^- M-x org-info
+*** To read the on-line documentation tryclone a subtree
+- C-c C-x c- M-x org-info
+*** To read the on-line documentation trycopy visible text
+- C-c C-x v- M-x org-info
+*** To read the on-line documentation trykill/copy subtree
+- C-c C-x C-w/M-w- M-x org-info
+*** To read the on-line documentation tryyank subtree
+- C-c C-x C-y or C-y- M-x org-info
+*** To read the on-line documentation trynarrow buffer to subtree / widen
+- C-x n s/w- M-x org-info
+** Capture - Refile - Archiving:
+*** To read the on-line documentation trycapture a new item (C-u C-u = goto last)
+- C-c c- M-x org-info
+*** To read the on-line documentation tryrefile subtree (C-u C-u = goto last)
+- C-c C-w- M-x org-info
+*** To read the on-line documentation tryarchive subtree using the default command
+- C-c C-x C-a- M-x org-info
+*** To read the on-line documentation trymove subtree to archive file
+- C-c C-x C-s- M-x org-info
+*** To read the on-line documentation trytoggle ARCHIVE tag / to ARCHIVE sibling
+- C-c C-x a/A- M-x org-info
+*** To read the on-line documentation tryforce cycling of an ARCHIVEd tree
+- C-TAB- M-x org-info
+** Filtering and Sparse Trees:
+*** To read the on-line documentation tryconstruct a sparse tree by various criteria
+- C-c /- M-x org-info
+*** To read the on-line documentation tryview TODO's in sparse tree
+- C-c / t/T- M-x org-info
+*** To read the on-line documentation tryglobal TODO list in agenda mode
+- C-c a t- M-x org-info
+*** To read the on-line documentation trytime sorted view of current org file
+- C-c a L- M-x org-info
+** Tables:
+*** To read the on-line documentation tryre-align the table without moving the cursor
+- C-c C-c- M-x org-info
+*** To read the on-line documentation tryre-align the table, move to next field
+- TAB- M-x org-info
+*** To read the on-line documentation trymove to previous field
+- S-TAB- M-x org-info
+*** To read the on-line documentation tryre-align the table, move to next row
+- RET- M-x org-info
+*** To read the on-line documentation trymove to beginning/end of field
+- M-a/e- M-x org-info
+*** To read the on-line documentation trymove the current column left
+- M-LEFT/RIGHT- M-x org-info
+*** To read the on-line documentation trykill the current column
+- M-S-LEFT- M-x org-info
+*** To read the on-line documentation tryinsert new column to left of cursor position
+- M-S-RIGHT- M-x org-info
+*** To read the on-line documentation trymove the current row up/down
+- M-UP/DOWN- M-x org-info
+*** To read the on-line documentation trykill the current row or horizontal line
+- M-S-UP- M-x org-info
+*** To read the on-line documentation tryinsert new row above the current row
+- M-S-DOWN- M-x org-info
+*** To read the on-line documentation tryinsert hline below (C-u : above) current row
+- C-c -- M-x org-info
+*** To read the on-line documentation tryinsert hline and move to line below it
+- C-c RET- M-x org-info
+*** To read the on-line documentation trysort lines in region
+- C-c ^- M-x org-info
+*** To read the on-line documentation trycut/copy/paste rectangular region
+- C-c C-x C-w/M-w/C-y- M-x org-info
+*** To read the on-line documentation tryfill paragraph across selected cells
+- C-c C-q- M-x org-info
+*** To read the on-line documentation tryedit the current field in a separate window
+- C-c `- M-x org-info
+*** To read the on-line documentation trymake current field fully visible
+- C-u TAB- M-x org-info
+*** To read the on-line documentation tryexport as tab-separated file
+- M-x org-table-export- M-x org-info
+*** To read the on-line documentation tryimport tab-separated file
+- M-x org-table-import- M-x org-info
+*** To read the on-line documentation trysum numbers in current column/rectangle
+- C-c +- M-x org-info
+*** To read the on-line documentation tryinsert a new table.el table
+- C-c ~- M-x org-info
+*** To read the on-line documentation tryrecognize existing table.el table
+- C-c C-c- M-x org-info
+*** To read the on-line documentation tryconvert table (Org-mode <-> table.el)
+- C-c ~- M-x org-info
+*** To read the on-line documentation tryapply current column formula
+- =- M-x org-info
+*** To read the on-line documentation tryset and eval column formula
+- C-c =- M-x org-info
+*** To read the on-line documentation tryset and eval field formula
+- C-u C-c #- M-x org-info
+*** To read the on-line documentation tryre-apply all stored equations to current line
+- C-c *- M-x org-info
+*** To read the on-line documentation tryre-apply all stored equations to entire table
+- C-u C-c *- M-x org-info
+*** To read the on-line documentation tryiterate table to stability
+- C-u C-u C-c *- M-x org-info
+*** To read the on-line documentation tryrotate calculation mark through # * ! ^ _
+- C-#- M-x org-info
+*** To read the on-line documentation tryshow line, column, formula reference
+- C-c ?- M-x org-info
+*** To read the on-line documentation trytoggle grid / debugger
+- C-c }/{- M-x org-info
+*** To read the on-line documentation tryedit formulas in separate buffer
+- C-c '- M-x org-info
+*** To read the on-line documentation tryexit and install new formulas
+- C-c C-c- M-x org-info
+*** To read the on-line documentation tryexit, install, and apply new formulas
+- C-u C-c C-c- M-x org-info
+*** To read the on-line documentation tryabort
+- C-c C-q- M-x org-info
+*** To read the on-line documentation trytoggle reference style
+- C-c C-r- M-x org-info
+*** To read the on-line documentation trypretty-print Lisp formula
+- TAB- M-x org-info
+*** To read the on-line documentation trycomplete Lisp symbol
+- M-TAB- M-x org-info
+*** To read the on-line documentation tryshift reference point
+- S-cursor- M-x org-info
+*** To read the on-line documentation tryshift test line for column references
+- M-up/down- M-x org-info
+*** To read the on-line documentation tryscroll the window showing the table
+- M-S-up/down- M-x org-info
+*** To read the on-line documentation trytoggle table coordinate grid
+- C-c }- M-x org-info
+** Links:
+*** To read the on-line documentation tryglobally store link to the current location
+- C-c l- M-x org-info
+*** To read the on-line documentation tryinsert a link (TAB completes stored links)
+- C-c C-l- M-x org-info
+*** To read the on-line documentation tryinsert file link with file name completion
+- C-u C-c C-l- M-x org-info
+*** To read the on-line documentation tryedit (also hidden part of) link at point
+- C-c C-l- M-x org-info
+*** To read the on-line documentation tryopen file links in emacs
+- C-c C-o- M-x org-info
+*** To read the on-line documentation try…force open in emacs/other window
+- C-u C-c C-o- M-x org-info
+*** To read the on-line documentation tryopen link at point
+- mouse-1/2- M-x org-info
+*** To read the on-line documentation try…force open in emacs/other window
+- mouse-3- M-x org-info
+*** To read the on-line documentation tryrecord a position in mark ring
+- C-c %- M-x org-info
+*** To read the on-line documentation tryjump back to last followed link(s)
+- C-c &- M-x org-info
+*** To read the on-line documentation tryfind next link
+- C-c C-x C-n- M-x org-info
+*** To read the on-line documentation tryfind previous link
+- C-c C-x C-p- M-x org-info
+*** To read the on-line documentation tryedit code snippet of file at point
+- C-c '- M-x org-info
+*** To read the on-line documentation trytoggle inline display of linked images
+- C-c C-x C-v- M-x org-info
+** Working with Code (Babel):
+*** To read the on-line documentation tryexecute code block at point
+- C-c C-c- M-x org-info
+*** To read the on-line documentation tryopen results of code block at point
+- C-c C-o- M-x org-info
+*** To read the on-line documentation trycheck code block at point for errors
+- C-c C-v c- M-x org-info
+*** To read the on-line documentation tryinsert a header argument with completion
+- C-c C-v j- M-x org-info
+*** To read the on-line documentation tryview expanded body of code block at point
+- C-c C-v v- M-x org-info
+*** To read the on-line documentation tryview information about code block at point
+- C-c C-v I- M-x org-info
+*** To read the on-line documentation trygo to named code block
+- C-c C-v g- M-x org-info
+*** To read the on-line documentation trygo to named result
+- C-c C-v r- M-x org-info
+*** To read the on-line documentation trygo to the head of the current code block
+- C-c C-v u- M-x org-info
+*** To read the on-line documentation trygo to the next code block
+- C-c C-v n- M-x org-info
+*** To read the on-line documentation trygo to the previous code block
+- C-c C-v p- M-x org-info
+*** To read the on-line documentation trydemarcate a code block
+- C-c C-v d- M-x org-info
+*** To read the on-line documentation tryexecute the next key sequence in the code edit bu
+- C-c C-v x- M-x org-info
+*** To read the on-line documentation tryexecute all code blocks in current buffer
+- C-c C-v b- M-x org-info
+*** To read the on-line documentation tryexecute all code blocks in current subtree
+- C-c C-v s- M-x org-info
+*** To read the on-line documentation trytangle code blocks in current file
+- C-c C-v t- M-x org-info
+*** To read the on-line documentation trytangle code blocks in supplied file
+- C-c C-v f- M-x org-info
+*** To read the on-line documentation tryingest all code blocks in supplied file into the
+- C-c C-v i- M-x org-info
+*** To read the on-line documentation tryswitch to the session of the current code block
+- C-c C-v z- M-x org-info
+*** To read the on-line documentation tryload the current code block into a session
+- C-c C-v l- M-x org-info
+*** To read the on-line documentation tryview sha1 hash of the current code block
+- C-c C-v a- M-x org-info
+** Completion:
+*** To read the on-line documentation trycomplete word at point
+- M-TAB- M-x org-info
+** Todo Items and Checkboxes:
+*** To read the on-line documentation tryrotate the state of the current item
+- C-c C-t- M-x org-info
+*** To read the on-line documentation tryselect next/previous state
+- S-LEFT/RIGHT- M-x org-info
+*** To read the on-line documentation tryselect next/previous set
+- C-S-LEFT/RIGHT- M-x org-info
+*** To read the on-line documentation trytoggle ORDERED property
+- C-c C-x o- M-x org-info
+*** To read the on-line documentation tryview TODO items in a sparse tree
+- C-c C-v- M-x org-info
+*** To read the on-line documentation tryview 3rd TODO keyword's sparse tree
+- C-3 C-c C-v- M-x org-info
+*** To read the on-line documentation tryset the priority of the current item
+- C-c , [ABC]- M-x org-info
+*** To read the on-line documentation tryremove priority cookie from current item
+- C-c , SPC- M-x org-info
+*** To read the on-line documentation tryraise/lower priority of current item
+- S-UP/DOWN- M-x org-info
+*** To read the on-line documentation tryinsert new checkbox item in plain list
+- M-S-RET- M-x org-info
+*** To read the on-line documentation trytoggle checkbox(es) in region/entry/at point
+- C-c C-x C-b- M-x org-info
+*** To read the on-line documentation trytoggle checkbox at point
+- C-c C-c- M-x org-info
+*** To read the on-line documentation tryupdate checkbox statistics (C-u : whole file)
+- C-c #- M-x org-info
+** Tags:
+*** To read the on-line documentation tryset tags for current heading
+- C-c C-q- M-x org-info
+*** To read the on-line documentation tryrealign tags in all headings
+- C-u C-c C-q- M-x org-info
+*** To read the on-line documentation trycreate sparse tree with matching tags
+- C-c \\\\- M-x org-info
+*** To read the on-line documentation tryglobally (agenda) match tags at cursor
+- C-c C-o- M-x org-info
+** Properties and Column View:
+*** To read the on-line documentation tryset property/effort
+- C-c C-x p/e- M-x org-info
+*** To read the on-line documentation tryspecial commands in property lines
+- C-c C-c- M-x org-info
+*** To read the on-line documentation trynext/previous allowed value
+- S-left/right- M-x org-info
+*** To read the on-line documentation tryturn on column view
+- C-c C-x C-c- M-x org-info
+*** To read the on-line documentation trycapture columns view in dynamic block
+- C-c C-x i- M-x org-info
+*** To read the on-line documentation tryquit column view
+- q- M-x org-info
+*** To read the on-line documentation tryshow full value
+- v- M-x org-info
+*** To read the on-line documentation tryedit value
+- e- M-x org-info
+*** To read the on-line documentation trynext/previous allowed value
+- n/p or S-left/right- M-x org-info
+*** To read the on-line documentation tryedit allowed values list
+- a- M-x org-info
+*** To read the on-line documentation trymake column wider/narrower
+- > / <- M-x org-info
+*** To read the on-line documentation trymove column left/right
+- M-left/right- M-x org-info
+*** To read the on-line documentation tryadd new column
+- M-S-right- M-x org-info
+*** To read the on-line documentation tryDelete current column
+- M-S-left- M-x org-info
+** Timestamps:
+*** To read the on-line documentation tryprompt for date and insert timestamp
+- C-c .- M-x org-info
+*** To read the on-line documentation trylike C-c . but insert date and time format
+- C-u C-c .- M-x org-info
+*** To read the on-line documentation trylike C-c . but make stamp inactive
+- C-c !- M-x org-info
+*** To read the on-line documentation tryinsert DEADLINE timestamp
+- C-c C-d- M-x org-info
+*** To read the on-line documentation tryinsert SCHEDULED timestamp
+- C-c C-s- M-x org-info
+*** To read the on-line documentation trycreate sparse tree with all deadlines due
+- C-c / d- M-x org-info
+*** To read the on-line documentation trythe time between 2 dates in a time range
+- C-c C-y- M-x org-info
+*** To read the on-line documentation trychange timestamp at cursor ±1 day
+- S-RIGHT/LEFT- M-x org-info
+*** To read the on-line documentation trychange year/month/day at cursor by ±1
+- S-UP/DOWN- M-x org-info
+*** To read the on-line documentation tryaccess the calendar for the current date
+- C-c >- M-x org-info
+*** To read the on-line documentation tryinsert timestamp matching date in calendar
+- C-c <- M-x org-info
+*** To read the on-line documentation tryaccess agenda for current date
+- C-c C-o- M-x org-info
+*** To read the on-line documentation tryselect date while prompted
+- mouse-1/RET- M-x org-info
+*** To read the on-line documentation trytoggle custom format display for dates/times
+- C-c C-x C-t- M-x org-info
+*** To read the on-line documentation trystart clock on current item
+- C-c C-x C-i- M-x org-info
+*** To read the on-line documentation trystop/cancel clock on current item
+- C-c C-x C-o/x- M-x org-info
+*** To read the on-line documentation trydisplay total subtree times
+- C-c C-x C-d- M-x org-info
+*** To read the on-line documentation tryremove displayed times
+- C-c C-c- M-x org-info
+*** To read the on-line documentation tryinsert/update table with clock report
+- C-c C-x C-r- M-x org-info
+** Agenda Views:
+*** To read the on-line documentation tryadd/move current file to front of agenda
+- C-c [- M-x org-info
+*** To read the on-line documentation tryremove current file from your agenda
+- C-c ]- M-x org-info
+*** To read the on-line documentation trycycle through agenda file list
+- C-'- M-x org-info
+*** To read the on-line documentation tryset/remove restriction lock
+- C-c C-x </>- M-x org-info
+*** To read the on-line documentation trycompile agenda for the current week
+- C-c a a- M-x org-info
+*** To read the on-line documentation trycompile global TODO list
+- C-c a t- M-x org-info
+*** To read the on-line documentation trycompile TODO list for specific keyword
+- C-c a T- M-x org-info
+*** To read the on-line documentation trymatch tags, TODO kwds, properties
+- C-c a m- M-x org-info
+*** To read the on-line documentation trymatch only in TODO entries
+- C-c a M- M-x org-info
+*** To read the on-line documentation tryfind stuck projects
+- C-c a #- M-x org-info
+*** To read the on-line documentation tryshow timeline of current org file
+- C-c a L- M-x org-info
+*** To read the on-line documentation tryconfigure custom commands
+- C-c a C- M-x org-info
+*** To read the on-line documentation tryagenda for date at cursor
+- C-c C-o- M-x org-info
+*** To read the on-line documentation tryshow original location of item
+- SPC/mouse-3- M-x org-info
+*** To read the on-line documentation tryshow and recenter window
+- L- M-x org-info
+*** To read the on-line documentation trygoto original location in other window
+- TAB/mouse-2- M-x org-info
+*** To read the on-line documentation trygoto original location, delete other windows
+- RET- M-x org-info
+*** To read the on-line documentation tryshow subtree in indirect buffer, ded.\\ frame
+- C-c C-x b- M-x org-info
+*** To read the on-line documentation trytoggle follow-mode
+- F- M-x org-info
+*** To read the on-line documentation trydelete other windows
+- o- M-x org-info
+*** To read the on-line documentation tryview mode dispatcher
+- v- M-x org-info
+*** To read the on-line documentation tryswitch to day/week/month/year/def view
+- d w vm vy vSP- M-x org-info
+*** To read the on-line documentation trytoggle diary entries / time grid / habits
+- D / G / K- M-x org-info
+*** To read the on-line documentation trytoggle entry text / clock report
+- E / R- M-x org-info
+*** To read the on-line documentation trytoggle display of logbook entries
+- l / v l/L/c- M-x org-info
+*** To read the on-line documentation trytoggle inclusion of archived trees/files
+- v a/A- M-x org-info
+*** To read the on-line documentation tryrefresh agenda buffer with any changes
+- r / g- M-x org-info
+*** To read the on-line documentation tryfilter with respect to a tag
+- /- M-x org-info
+*** To read the on-line documentation trysave all org-mode buffers
+- s- M-x org-info
+*** To read the on-line documentation trydisplay next/previous day,week,…
+- f / b- M-x org-info
+*** To read the on-line documentation trygoto today / some date (prompt)
+- . / j- M-x org-info
+*** To read the on-line documentation trydigit argument
+- 0-9- M-x org-info
+*** To read the on-line documentation trychange state of current TODO item
+- t- M-x org-info
+*** To read the on-line documentation trykill item and source
+- C-k- M-x org-info
+*** To read the on-line documentation tryarchive default
+- / a- M-x org-info
+*** To read the on-line documentation tryrefile the subtree
+- C-c C-w- M-x org-info
+*** To read the on-line documentation tryset/show tags of current headline
+- : / T- M-x org-info
+*** To read the on-line documentation tryset effort property (prefix=nth)
+- e- M-x org-info
+*** To read the on-line documentation tryset / compute priority of current item
+- , / P- M-x org-info
+*** To read the on-line documentation tryraise/lower priority of current item
+- S-UP/DOWN- M-x org-info
+*** To read the on-line documentation tryrun an attachment command
+- C-c C-a- M-x org-info
+*** To read the on-line documentation tryschedule/set deadline for this item
+- C-c C-s/d- M-x org-info
+*** To read the on-line documentation trychange timestamp one day earlier/later
+- S-LEFT/RIGHT- M-x org-info
+*** To read the on-line documentation trychange timestamp to today
+- >- M-x org-info
+*** To read the on-line documentation tryinsert new entry into diary
+- i- M-x org-info
+*** To read the on-line documentation trystart/stop/cancel the clock on current item
+- I / O / X- M-x org-info
+*** To read the on-line documentation tryjump to running clock entry
+- J- M-x org-info
+*** To read the on-line documentation trymark / unmark / execute bulk action
+- m / u / B- M-x org-info
+*** To read the on-line documentation tryfollow one or offer all links in current entry
+- C-c C-o- M-x org-info
+*** To read the on-line documentation tryfind agenda cursor date in calendar
+- c- M-x org-info
+*** To read the on-line documentation trycompute agenda for calendar cursor date
+- c- M-x org-info
+*** To read the on-line documentation tryshow phases of the moon
+- M- M-x org-info
+*** To read the on-line documentation tryshow sunrise/sunset times
+- S- M-x org-info
+*** To read the on-line documentation tryshow holidays
+- H- M-x org-info
+*** To read the on-line documentation tryconvert date to other calendars
+- C- M-x org-info
+*** To read the on-line documentation tryquit agenda, remove agenda buffer
+- q- M-x org-info
+*** To read the on-line documentation tryexit agenda, remove all agenda buffers
+- x- M-x org-info
+** LaTeX and cdlatex-mode:
+*** To read the on-line documentation trypreview LaTeX fragment
+- C-c C-x C-l- M-x org-info
+*** To read the on-line documentation tryexpand abbreviation (cdlatex-mode)
+- TAB- M-x org-info
+*** To read the on-line documentation tryinsert/modify math symbol (cdlatex-mode)
+- ` / '- M-x org-info
+*** To read the on-line documentation tryinsert citation using RefTeX
+- C-c C-x [- M-x org-info
+** Exporting and Publishing:
+*** To read the on-line documentation tryexport/publish dispatcher
+- C-c C-e- M-x org-info
+*** To read the on-line documentation tryexport visible part only
+- C-c C-e v- M-x org-info
+*** To read the on-line documentation tryinsert template of export options
+- C-c C-e t- M-x org-info
+*** To read the on-line documentation trytoggle fixed width for entry or region
+- C-c :- M-x org-info
+*** To read the on-line documentation trytoggle pretty display of scripts, entities
+- C-c C-x {\\tt\\char`\\}- M-x org-info
+*** To read the on-line documentation trytoggle COMMENT keyword on entry
+- C-c ;- M-x org-info
+** Dynamic Blocks:
+*** To read the on-line documentation tryupdate dynamic block at point
+- C-c C-x C-u- M-x org-info
+*** To read the on-line documentation tryupdate all dynamic blocks
+- C-u C-c C-x C-u- M-x org-info
+
+
 * Avy
 ** Go to char
-   M-s
-   
+   M-s   
+
+
 * Config
 ** Reload
    C-c r
 
 ** Open lzconf.org
    C-c e
+
 
 * Org
 ** Load #+ line
@@ -38,7 +534,7 @@ C-c C-c
 *** Open calender
 C-c C-s
 
-*** TODO Schedule event
+*** Schedule event
 - C-c C-s
   + Must be on headline
 
@@ -48,6 +544,15 @@ C-c C-s
 
 ** Mark with todo keyword
 C-c C-t
+
+** Links
+*** Open links
+- C-c C-o
+*** Return to position
+- C-c &
+*** Edit link
+- C-c C-l
+
 
 * Movement
 ** Switch/Next window

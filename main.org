@@ -1,0 +1,377 @@
+#+TITLE: Main
+#+ARCHIVE: ~/org/archive/main.org
+
+* Links
+- [[file:lists.org][Lists]]
+- [[file:emacs-keys.org][Keys]]
+- [[file:notes.org][Notes]]
+- [[file:todo.org][Todo]]
+  
+** Emacs config files
+1. [[file:config/init.el][Init]]
+2. [[file:~/.emacs.d/init.el][Active init file]]
+3. [[file:config/lzconf.org][LZConfig]]
+4. [[file:~/.emacs.d/lzconf.org][Active LZConfig]]
+5. [[file:~/dev][Dev]]
+
+
+* People
+** Sander
+*** DONE Try new shit
+SCHEDULED: <2019-05-01 Wed>
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-01 Wed 17:02]
+- State "ACTIVE"     from              [2019-05-01 Wed 16:10]
+:END:
+
+*** DONE Decide on amount
+CLOSED: [2019-05-05 Sun 13:34] DEADLINE: <2019-05-02 Thu> SCHEDULED: <2019-05-01 Wed>
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-05 Sun 13:34]
+- State "ACTIVE"     from              [2019-05-01 Wed 17:03]
+:END:
+
+** Frede
+*** 300 - 500 ?
+
+** Patrick
+*** 200 kr.
+SCHEDULED: <2019-04-30 Tue>
+
+** Mark? (Patrick)
+*** 200 kr.
+SCHEDULED: <2019-04-30 Tue>
+
+** Simon (kim)
+*** DONE Fix arduino
+CLOSED: [2019-05-06 Mon 05:42] SCHEDULED: <2019-05-02 Thu 21:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-06 Mon 05:42]
+- State "TODO"       from              [2019-05-02 Thu 00:50]
+:END:
+
+** Mormor
+*** TODO Pay grandma 170,- kr
+SCHEDULED: <2019-05-06 Mon>
+:LOGBOOK:
+- Rescheduled from "[2019-05-02 Thu]" on [2019-05-06 Mon 05:41]
+- State "TODO"       from              [2019-05-02 Thu 00:52]
+:END:
+
+
+* Lists
+** Rubiks Cubes
+*** 2x2x2
+**** Status: 
+***** Solved! (No guide)
+
+**** Difficulty:
+    2/5
+
+*** 3x3x3
+**** Status
+***** Solved! (No guide)
+
+**** Difficulty:
+    3/5
+
+*** 4x4x4
+**** Status
+***** Solved! (No guide)
+
+**** Difficulty:
+    4/5
+
+*** 5x5x5
+**** Status
+***** Solved! (No guide)
+
+**** Difficulty:
+    3/5
+
+*** 6x6x6
+**** Status
+***** Solved! (No guide)
+
+**** Difficulty:
+    3/5
+
+*** 7x7x7
+**** Status
+***** Solved! (No guide)
+
+*** 9x9x9
+**** Status
+***** Not solved
+
+*** 3x3x9
+**** Status
+***** Not solved
+
+*** Ancient Coin Cube
+**** Status
+***** Solved! (No guide)
+
+*** Barrel 3x3
+**** Status
+***** Solved! (No guide)
+
+*** Container Cube
+**** Status
+***** Not solved
+
+*** Curvy Copter Plus
+**** Status
+***** Solved! (No guide)
+
+*** Fisher Cube
+**** Status
+***** Solved! (No guide)
+
+*** Gear Cube
+**** Status
+***** Solved! (No guide)
+
+*** Ghost Cube
+**** Status
+***** Not solved
+
+*** Ivy Cube
+**** Status
+***** Solved! (No guide)
+
+*** Megaminx
+**** Status
+***** Solved!
+
+*** Mosaic Cube
+**** Status
+***** Solved! (No guide)
+
+*** Pyraminx
+**** Status
+***** Solved!
+
+*** Sandwitch Cube
+**** Status
+***** Solved! (No guide)
+
+*** Scewb
+**** Status
+***** Solved! (No guide)
+** PCs
+*** 1. (Medion)
+**** CPU:
+***** Intel core 2 duo 1.5GHz
+
+**** RAM:
+***** 1G x 2 = 2G
+
+*** 2. (Acer)
+**** CPU:
+***** amd athlon 64 x2 dual-core TK-55 1.8GHz
+
+**** RAM:
+***** 1G x 2 = 2G
+
+*** 3. (Lenovo)
+**** CPU:
+***** Intel Celeron Processor 530 1.73 GHz
+
+**** RAM:
+***** 1G x 2 = 2G 
+
+*** 4. (Packard Bell)
+**** CPU:
+***** 
+
+**** RAM:
+***** 
+
+*** 5. ()
+**** CPU:
+*** 
+**** RAM:
+
+
+
+* Devices
+** Main pc
+*** Static ip
+6.6.6.6
+** Wish Tab
+*** Static ip
+6.6.6.9
+
+
+* Projects
+** Configure emacs [0/1]
+***  Watch uncle Daves "Emacs" playlist [12/23]
++ [X] Video 1
++ [X] Video 2
++ [X] Video 3
++ [X] Video 4
++ [X] Video 5
++ [X] Video 6
++ [X] Video 7
++ [X] Video 8
++ [X] Video 9
++ [X] Video 10
++ [X] Video 11
++ [X] Video 12
++ [ ] Video 13
++ [ ] Video 14
++ [ ] Video 15
++ [ ] Video 16
++ [ ] Video 17
++ [ ] Video 18
++ [ ] Video 19
++ [ ] Video 20
++ [ ] Video 21
++ [ ] Video 22
++ [ ] Video 23
++ [ ] Video 24
+
+** Cleaning [0/5]
+*** Bedroom [0/2]
+**** Unfuck wires [3/6]
+DEADLINE: <2019-05-03 Fri> SCHEDULED: <2019-04-30 Tue>
+
+- [X] Sort wires
+- [X] Consider and chose storage location
+- [X] Put wires in wrack
+- [ ] Find place for rack
+- [ ] Consider and chose storage location(Big wires and scratch wires)
+- [ ] Put away big and scratch wire
+
+**** Cleanup tools [0/2]
+
+- [ ] Sort tools
+- [ ] Place tools in storage
+*** Living room [0/1]
+****  Shelvs [0/2]
+- [ ] Left
+- [ ] Right
+*** Kitchen [0/0]
+*** Bathroom [0/0]
+*** Hallway [0/1]
+- [ ] Closet
+
+** DONE Go get som food
+DEADLINE: <2019-04-30 Tue 18:00> SCHEDULED: <2019-04-30 Tue>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-04-30 Tue 23:55]
+- State "TODO"       from              [2019-04-30 Tue 15:52]
+:END:
+** Create stofa account [0/4]
+*** IMPORTANT Call stofa and unlock account
+Call stofa and talk about MitLogin
+- Me: 29 47 66 78
+- Tlf: 88 30 30 30
+- Kundenummer: 9358016
+
+SCHEDULED: <2019-05-02 Thu> DEADLINE: <2019-05-02 Thu 21:00>
+:LOGBOOK:
+- State "IMPORTANT"  from              [2019-05-02 Thu 08:25]
+:END:
+
+*** TODO Disable wifi
+
+:LOGBOOK:
+- State "TODO"       from              [2019-05-02 Thu 08:28]
+:END:
+*** TODO Scan wifi and find unused channels
+
+:LOGBOOK:
+- State "TODO"       from              [2019-05-02 Thu 08:29]
+:END:
+
+*** TODO Change to one of the unused channels
+
+:LOGBOOK:
+- State "TODO"       from              [2019-05-02 Thu 08:28]
+:END:
+
+
+
+
+
+
+
+* Cube shopping lists
+** Rapture cuve
+** fisher wheel of time
+** Yelling time wheel
+** Mirror cube
+** Tressure chest
+** Tisty scewb
+** Twist 3x3
+
+
+* Rush todo [1/10]
+** DONE format pc (Asker)
+CLOSED: [2019-05-07 Tue 08:02] DEADLINE: <2019-05-07 Tue 10:00> SCHEDULED: <2019-05-07 Tue>
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-07 Tue 08:02]
+- Note taken on [2019-05-07 Tue 04:33] \\
+  Graphics card seems dead
+- Note taken on [2019-05-07 Tue 04:31] \\
+  Pc recived without hdd
+- State "ACTIVE"     from              [2019-05-07 Tue 02:43]
+:END:
+** ACTIVE Fix laptop (Asker)
+DEADLINE: <2019-05-07 Tue 10:00> SCHEDULED: <2019-05-07 Tue>
+:LOGBOOK:
+- State "ACTIVE"     from              [2019-05-07 Tue 02:43]
+:END:
+
+** TODO Try new HDD in pc (Asker)
+SCHEDULED: <2019-05-09 Thu>
+:LOGBOOK:
+- State "TODO"       from              [2019-05-08 Wed 18:55]
+:END:
+** TODO Consider furniture placement
+DEADLINE: <2019-05-09 Thu> SCHEDULED: <2019-05-07 Tue>
+:LOGBOOK:
+- State "TODO"       from              [2019-05-07 Tue 02:51]
+:END:
+
+- [ ] Deteren if software is usefull for this
+
+** TODO Contact Frederik about Rubik's cube
+DEADLINE: <2019-05-10 Fri> SCHEDULED: <2019-05-08 Wed>
+:LOGBOOK:
+- State "TODO"       from              [2019-05-07 Tue 03:12]
+:END:
+** TODO Ask x about DMT
+DEADLINE: <2019-05-09 Thu 12:00> SCHEDULED: <2019-05-07 Tue 12:00>
+:LOGBOOK:
+- State "TODO"       from              [2019-05-07 Tue 03:14]
+:END:
+** TODO Fix mouse for benjamin [0/2]
+:LOGBOOK:
+- State "TODO"       from              [2019-05-07 Tue 03:17]
+:END:
+
+- [ ] Check wires
+- [ ] Replace wires
+
+** TODO Solder synth for Vedran
+:LOGBOOK:
+- State "TODO"       from              [2019-05-07 Tue 03:18]
+:END:
+** TODO Crack IMac for P
+SCHEDULED: <2019-05-08 Wed>
+:LOGBOOK:
+- State "TODO"       from              [2019-05-07 Tue 03:21]
+:END:
+** IMPORTANT Wait for B to delever stuff from M
+DEADLINE: <2019-05-07 Tue 22:00> SCHEDULED: <2019-05-07 Tue>
+:LOGBOOK:
+- New deadline from "[2019-05-06 Mon 22:00]" on [2019-05-07 Tue 08:04]
+- Rescheduled from "[2019-05-06 Mon]" on [2019-05-07 Tue 08:04]
+- State "IMPORTANT"  from              [2019-05-06 Mon 18:46]
+:END:
+
+
+
