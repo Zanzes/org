@@ -1,5 +1,5 @@
-#+TITLE: Main
-#+ARCHIVE: ~/org/archive/main.org
+ #+TITLE: Main
+#+ARCHIVE: ~/org/archive.org::datetree/* Main items
 
 * Links
 - [[file:lists.org][Lists]]
@@ -195,107 +195,25 @@ SCHEDULED: <2019-05-06 Mon>
 
 
 
+
+
 * Devices
 ** Main pc
 *** Static ip
 6.6.6.6
+** Media laptop
+*** Static ip
+6.6.6.7
+** Laptop (Main)
+*** Static ip
+6.6.6.8
 ** Wish Tab
 *** Static ip
 6.6.6.9
 
-
-* Projects
-** Configure emacs [0/1]
-***  Watch uncle Daves "Emacs" playlist [12/23]
-+ [X] Video 1
-+ [X] Video 2
-+ [X] Video 3
-+ [X] Video 4
-+ [X] Video 5
-+ [X] Video 6
-+ [X] Video 7
-+ [X] Video 8
-+ [X] Video 9
-+ [X] Video 10
-+ [X] Video 11
-+ [X] Video 12
-+ [ ] Video 13
-+ [ ] Video 14
-+ [ ] Video 15
-+ [ ] Video 16
-+ [ ] Video 17
-+ [ ] Video 18
-+ [ ] Video 19
-+ [ ] Video 20
-+ [ ] Video 21
-+ [ ] Video 22
-+ [ ] Video 23
-+ [ ] Video 24
-
-** Cleaning [0/5]
-*** Bedroom [0/2]
-**** Unfuck wires [3/6]
-DEADLINE: <2019-05-03 Fri> SCHEDULED: <2019-04-30 Tue>
-
-- [X] Sort wires
-- [X] Consider and chose storage location
-- [X] Put wires in wrack
-- [ ] Find place for rack
-- [ ] Consider and chose storage location(Big wires and scratch wires)
-- [ ] Put away big and scratch wire
-
-**** Cleanup tools [0/2]
-
-- [ ] Sort tools
-- [ ] Place tools in storage
-*** Living room [0/1]
-****  Shelvs [0/2]
-- [ ] Left
-- [ ] Right
-*** Kitchen [0/0]
-*** Bathroom [0/0]
-*** Hallway [0/1]
-- [ ] Closet
-
-** DONE Go get som food
-DEADLINE: <2019-04-30 Tue 18:00> SCHEDULED: <2019-04-30 Tue>
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2019-04-30 Tue 23:55]
-- State "TODO"       from              [2019-04-30 Tue 15:52]
-:END:
-** Create stofa account [0/4]
-*** IMPORTANT Call stofa and unlock account
-Call stofa and talk about MitLogin
-- Me: 29 47 66 78
-- Tlf: 88 30 30 30
-- Kundenummer: 9358016
-
-SCHEDULED: <2019-05-02 Thu> DEADLINE: <2019-05-02 Thu 21:00>
-:LOGBOOK:
-- State "IMPORTANT"  from              [2019-05-02 Thu 08:25]
-:END:
-
-*** TODO Disable wifi
-
-:LOGBOOK:
-- State "TODO"       from              [2019-05-02 Thu 08:28]
-:END:
-*** TODO Scan wifi and find unused channels
-
-:LOGBOOK:
-- State "TODO"       from              [2019-05-02 Thu 08:29]
-:END:
-
-*** TODO Change to one of the unused channels
-
-:LOGBOOK:
-- State "TODO"       from              [2019-05-02 Thu 08:28]
-:END:
-
-
-
-
-
+** Phone (A5)
+*** Static ip
+6.6.6.10
 
 
 * Cube shopping lists
@@ -308,17 +226,61 @@ SCHEDULED: <2019-05-02 Thu> DEADLINE: <2019-05-02 Thu 21:00>
 ** Twist 3x3
 
 
-* Rush todo [1/10]
-** DONE format pc (Asker)
-CLOSED: [2019-05-07 Tue 08:02] DEADLINE: <2019-05-07 Tue 10:00> SCHEDULED: <2019-05-07 Tue>
+* Todo list [1/9]
+#+ARCHIVE: ~/org/archive.org::datetree/* Finished Tasks
+
+** ACTIVE Cleaning [0/5]
 :LOGBOOK:
-- State "DONE"       from "ACTIVE"     [2019-05-07 Tue 08:02]
-- Note taken on [2019-05-07 Tue 04:33] \\
-  Graphics card seems dead
-- Note taken on [2019-05-07 Tue 04:31] \\
-  Pc recived without hdd
-- State "ACTIVE"     from              [2019-05-07 Tue 02:43]
+- State "ACTIVE"     from "TODO"       [2019-05-09 Thu 16:22]
+- State "TODO"       from              [2019-05-09 Thu 16:22]
 :END:
+
+*** ACTIVE Bedroom [7/10]
+DEADLINE: <2019-05-03 Fri> SCHEDULED: <2019-04-30 Tue>
+:LOGBOOK:
+- State "ACTIVE"     from "TODO"       [2019-05-09 Thu 16:57]
+- State "TODO"       from              [2019-05-09 Thu 16:56]
+:END:
+
+The move:
+- [X] Move furniture
+- [ ] Clean floor
+
+Wires:
+- [X] Sort wires
+- [X] Consider and chose storage location
+- [X] Put wires in wrack
+- [X] Find place for rack
+- [ ] Consider and chose storage location(Big wires and scratch wires)
+- [ ] Put away big and scratch wire
+
+Tools:
+- [X] Sort tools
+- [X] Place tools in storage
+
+*** TODO Living room [0/3]
+:LOGBOOK:
+- State "TODO"       from              [2019-05-09 Thu 16:57]
+:END:
+
+- [ ] Left shelv
+- [ ] Right shelv
+- [ ] Clear window
+
+*** TODO Kitchen [0/0]
+:LOGBOOK:
+- State "TODO"       from              [2019-05-09 Thu 16:57]
+:END:
+*** TODO Bathroom [0/0]
+:LOGBOOK:
+- State "TODO"       from              [2019-05-09 Thu 16:57]
+:END:
+*** TODO Hallway [0/1]
+:LOGBOOK:
+- State "TODO"       from              [2019-05-09 Thu 16:57]
+:END:
+- [ ] Closet
+
 ** ACTIVE Fix laptop (Asker)
 DEADLINE: <2019-05-07 Tue 10:00> SCHEDULED: <2019-05-07 Tue>
 :LOGBOOK:
@@ -330,22 +292,15 @@ SCHEDULED: <2019-05-09 Thu>
 :LOGBOOK:
 - State "TODO"       from              [2019-05-08 Wed 18:55]
 :END:
-** TODO Consider furniture placement
-DEADLINE: <2019-05-09 Thu> SCHEDULED: <2019-05-07 Tue>
-:LOGBOOK:
-- State "TODO"       from              [2019-05-07 Tue 02:51]
-:END:
-
-- [ ] Deteren if software is usefull for this
-
 ** TODO Contact Frederik about Rubik's cube
 DEADLINE: <2019-05-10 Fri> SCHEDULED: <2019-05-08 Wed>
 :LOGBOOK:
 - State "TODO"       from              [2019-05-07 Tue 03:12]
 :END:
-** TODO Ask x about DMT
-DEADLINE: <2019-05-09 Thu 12:00> SCHEDULED: <2019-05-07 Tue 12:00>
+** DONE Ask x about DMT
+CLOSED: [2019-05-10 Fri 01:17] DEADLINE: <2019-05-09 Thu 12:00> SCHEDULED: <2019-05-07 Tue 12:00>
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-10 Fri 01:17]
 - State "TODO"       from              [2019-05-07 Tue 03:14]
 :END:
 ** TODO Fix mouse for benjamin [0/2]

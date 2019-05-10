@@ -1,28 +1,35 @@
 #+SEQ_TODO: On(e!/!) | Off(d!/!)
 
 * Pre config
+** Better defaults
+
+#+BEGIN_SRC emacs-lisp
+  (use-package better-defaults
+    :ensure t)
+#+END_SRC
 ** Emacs window manager
 *** On Install
 #+BEGIN_SRC emacs-lisp
-  (use-package exwm
-    :ensure t
-    :config
-    (require 'exwm-config)
-    (exwm-config-default)
-    (exwm-config-ido))
+  ;;(use-package exwm
+  ;;  :ensure t
+  ;;  :config
+  ;;  (require 'exwm-config)
+  ;;  (exwm-config-default)
+  ;;  (exwm-config-ido))
+  ;;
 #+END_SRC
 *** On Set workspaces to 3
     :LOGBOOK:
     - State "On"         from              [2019-05-01 Wed 23:42]
     :END:
 #+BEGIN_SRC emacs-lisp
-  (setq exwm-workspace-number 3)
+  ;;(setq exwm-workspace-number 3)
 #+END_SRC
 *** On Desktop layout
 #+BEGIN_SRC emacs-lisp
-  (require 'exwm-randr)
-  (setq exwm-randr-workspace-output-plist '(1 "DVI-D-0" 0 "DP-1" 2 "DVI-I-1"))
-  (exwm-randr-enable)
+  ;;(require 'exwm-randr)
+  ;;(setq exwm-randr-workspace-output-plist '(1 "DVI-D-0" 0 "DP-1" 2 "DVI-I-1"))
+  ;;(exwm-randr-enable)
 #+END_SRC
 *** Hotkeys
 **** Off Open dmenu (win-d)
@@ -35,10 +42,10 @@
 #+END_SRC
 *** On Dmenu
 #+BEGIN_SRC emacs-lisp
-  (use-package dmenu
-    :ensure t
-    :bind
-    ("s-SPC" . 'dmenu))
+ ;; (use-package dmenu
+   ;; :ensure t
+   ;; :bind
+    ;;("s-SPC" . 'dmenu))
 #+END_SRC
 *** On Hide menus and scroll-bars
 #+BEGIN_SRC emacs-lisp
@@ -63,13 +70,22 @@
     - State "On"         from              [2019-05-01 Wed 23:43]
     :END:
 #+BEGIN_SRC emacs-lisp
-  (exwm-enable)
+;  (exwm-enable)
 #+END_SRC
 
 
+* Archiving
+** On Allow creating parent nodes
+:LOGBOOK:
+- State "On"         from              [2019-05-09 Thu 17:32]
+:END:
+
+#+BEGIN_SRC emacs-lisp
+  (setq org-refile-allow-creating-parent-nodes (quote confirm))
+#+END_SRC
+
 * Audio
 ** On Enable volume control
-
 #+BEGIN_SRC emacs-lisp
   (use-package volume
     :ensure t)
@@ -81,6 +97,7 @@
   (global-set-key (kbd "<XF86AudioRaiseVolume>") 'volume-raise)
   (global-set-key (kbd "<XF86AudioLowerVolume>") 'volume-lower)
 #+END_SRC
+
 * Avy
 ** On Enable
 #+BEGIN_SRC emacs-lisp
@@ -89,19 +106,23 @@
     :bind
     ("M-s" . avy-goto-char))
 #+END_SRC
+
 * Buffers
 ** On Switch buffers
 #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "C-x C-b") 'ido-switch-buffer)
 #+END_SRC
+
 ** On Expert mode
 #+BEGIN_SRC emacs-lisp
   (setq ibuffer-expert t)
 #+END_SRC
+
 ** On Enable ibuffer
 #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "C-x b") 'ibuffer)
 #+END_SRC
+
 ** On Kill current buffer
 #+BEGIN_SRC emacs-lisp
   (defun kill-current-buffer ()
@@ -109,11 +130,25 @@
     (kill-buffer (current-buffer)))
   (global-set-key (kbd "C-x k") 'kill-current-buffer)
 #+END_SRC
+
 * Coding
+** On Dumb jump
+:LOGBOOK:
+- State "On"         from              [2019-05-10 Fri 05:10]
+:END:
+
+#+BEGIN_SRC emacs-lisp
+  (use-package dumb-jump
+    :ensure t)
+  (setq dumb-jump-selector 'ivy)
+  (dumb-jump-mode)
+#+END_SRC
+
 ** Off Jump sub-words
 #+BEGIN_SRC emacs-lisp
   ;;(global-subword-mode 1)
 #+END_SRC
+
 ** On Electric
 #+BEGIN_SRC emacs-lisp
   (setq electric-pair-pairs '(
@@ -123,6 +158,7 @@
 			      ))
   (electric-pair-mode t)
 #+END_SRC
+
 ** On Killl word
 #+BEGIN_SRC emacs-lisp
   (defun killl-word()
@@ -131,6 +167,7 @@
     (kill-word 1))
   (global-set-key (kbd "C-c w w") 'killl-word)
 #+END_SRC
+
 ** On Kill line
 #+BEGIN_SRC emacs-lisp
   (defun copy-line ()
@@ -139,12 +176,14 @@
     (kill-line))
   (global-set-key (kbd "C-c w l") 'copy-line)
 #+END_SRC
+
 ** On Hungry delete
 #+BEGIN_SRC emacs-lisp
   (use-package hungry-delete
     :ensure t
     :config (global-hungry-delete-mode))
 #+END_SRC
+
 ** On Show parens (rainbow-delimiters)
 #+BEGIN_SRC emacs-lisp
   (use-package rainbow-delimiters
@@ -152,12 +191,14 @@
     :init
     (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
 #+END_SRC
+
 ** On Show color codes (rainbow-mode)
 #+BEGIN_SRC emacs-lisp
   (use-package rainbow-mode
     :ensure t
     :init (add-hook 'prog-mode-hook 'rainbow-mode))
 #+END_SRC
+
 
 ** On Emacs Lisp src snippet
 #+BEGIN_SRC emacs-lisp
@@ -195,6 +236,7 @@
 :LOGBOOK:
 - State "On"         from              [2019-05-01 Wed 18:36]
 :END:
+
 #+BEGIN_SRC emacs-lisp
   (defun open-initel()
     (interactive)
@@ -236,19 +278,37 @@
 #+BEGIN_SRC emacs-lisp
   (setq initial-scratch-message "")
 #+END_SRC
+** On Split vertically by default
+:LOGBOOK:
+- State "On"         from              [2019-05-05 Sun 21:25]
+:END:
+
+#+BEGIN_SRC emacs-lisp
+  (setq split-width-threshold 0)
+  (setq split-height-threshold nil)
+#+END_SRC
+
 * Dashboard
 ** On Enable
 :LOGBOOK:
 - State "On"         from              [2019-05-01 Wed 11:38]
 :END:
+
 #+BEGIN_SRC emacs-lisp
   (use-package dashboard
     :ensure t
     :config
     (dashboard-setup-startup-hook)
-    (setq dsahboard-items '((recents . 16)))
-    (setq dashboard-banner-logo-title "You have gained access to this system. Remember with great power comes great responsibility."))
+    (setq dashboard-items '((recents . 16)
+                            (bookmarks . 5)
+                            (agenda . 5)
+                            (projects . 5)
+                            (registers . 5)))
+    (setq dashboard-banner-logo-title "You have gained access to this system. Remember with great power comes great responsibility.")
+    ;;(setq dashboard-center-content t)
+    )
 #+END_SRC
+
 * FileSystem
 ** On Disable/Relocate junk files
 #+BEGIN_SRC emacs-lisp
@@ -261,7 +321,7 @@
    - State "On"         from              [2019-04-30 Tue 07:20]
 
 #+BEGIN_SRC emacs-lisp
-  (setq org-default-notes-file (concat org-directory (expand-file-name "~/dev/org/notes.org")))
+  (setq org-default-notes-file (expand-file-name "~/org/notes.org"))
 #+END_SRC
 * Frames
 ** Off Auto-resize frames with golden-ratio
@@ -333,6 +393,28 @@
     (other-window 1))
   (global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
 #+END_SRC* IDO
+* Git
+** On Magit
+:LOGBOOK:
+- State "On"         from              [2019-05-10 Fri 04:58]
+:END:
+
+#+BEGIN_SRC emacs-lisp
+  (use-package magit
+    :ensure t)
+#+END_SRC
+
+** On Git gutter
+:LOGBOOK:
+- State "On"         from              [2019-05-10 Fri 05:00]
+:END:
+
+#+BEGIN_SRC emacs-lisp
+  (use-package git-gutter
+    :ensure t)
+  (global-git-gutter-mode +1)
+#+END_SRC
+
 * Minibuffer
 ** On Hide load time
 #+BEGIN_SRC emacs-lisp
@@ -368,7 +450,42 @@
     (setq powerline-default-separator (quote arrow))
     (spaceline-emacs-theme))
 #+END_SRC
+** On Visual bell
+A friendlier visual bell effect.
+
+#+BEGIN_SRC emacs-lisp
+   (defun my-terminal-visible-bell ()
+     (invert-face 'mode-line)
+     (run-with-timer 0.1 nil 'invert-face 'mode-line))
+ 
+  (setq visible-bell nil
+        ring-bell-function 'my-terminal-visible-bell)
+#+END_SRC
+
+:LOGBOOK:
+- State "On"         from              [2019-05-02 Thu 03:50]
+:END:
+
 * Org-mode
+** On Alert
+:LOGBOOK:
+- State "On"         from              [2019-05-06 Mon 02:24]
+:END:
+#+BEGIN_SRC emacs-lisp
+  (use-package org-alert
+    :ensure t)
+  (org-alert-enable)
+  (setq alert-default-style 'libnotify)
+#+END_SRC
+** On Require 2 lines for new line
+:LOGBOOK:
+- State "On"         from              [2019-05-09 Thu 17:27]
+:END:
+
+#+BEGIN_SRC emacs-lisp
+  (setq org-cycle-separator-lines 2)
+#+END_SRC
+
 ** Hotkeys
 *** On Store link
     - State "On"         from              [2019-04-30 Tue 07:17]
@@ -406,6 +523,7 @@
    :END:
 #+BEGIN_SRC emacs-lisp
   (setq org-ellipsis " »")
+  ;;(setq org-ellipsis '((t (:foreground "LightGoldenrod" :underline nil))))
 #+END_SRC
 ** On Other
 :LOGBOOK:
@@ -451,7 +569,18 @@
 - State "On"         from              [2019-05-01 Wed 12:05]
 :END:
 #+BEGIN_SRC emacs-lisp
-  (org-agenda-files (quote ("~/dev/org/todo.org")))
+  (setq my-agenda-files '("~/org/todo.org"
+                          "~/org/archive.org"
+                          "~/org/main.org"
+                          "~/org/notes.org"
+                          "~/org/lists.org"
+                          "~/org/emacs-keys.org"))
+
+  (mapc
+   (lambda (file)
+     (if (not (member file org-agenda-files))
+         (add-to-list 'org-agenda-files file)))
+   my-agenda-files)
 #+END_SRC
 
 ** On Enable log into logbook drawer
@@ -469,6 +598,33 @@
 #+BEGIN_SRC emacs-lisp
   (setq org-pretty-entities t)
 #+END_SRC
+
+** On Default visibility
+:LOGBOOK:
+- State "On"         from              [2019-05-06 Mon 02:27]
+:END:
+#+BEGIN_SRC emacs-lisp
+  (defun org-show-two-levels ()
+    (interactive)
+    (org-content 2))
+
+  (defun propper-show-headings ()
+    (interactive)
+    (outline-show-entry)
+    (outline-show-children))
+
+  (add-hook 'org-mode-hook 
+            (lambda ()
+              (org-map-entries 'propper-show-headings "LEVEL=1")))
+#+END_SRC
+* Python
+** elpy (Emacs Lisp Python Environment)
+
+#+BEGIN_SRC emacs-lisp
+  (use-package elpy
+    :ensure t)
+#+END_SRC
+
 * Terminal
 ** On Default to bash shell
 #+BEGIN_SRC emacs-lisp
@@ -544,7 +700,10 @@
 
 #+BEGIN_SRC emacs-lisp
   (setq org-todo-keywords
-        '((sequence "TODO(t!/!)" "IMPORTANT(i!/!)" "ACTIVE(a!/!)" "|" "DONE(d!/!)")))
+        '((sequence "TODO(t!/!)" "ACTIVE(a!/!)" "|" "DONE(d!/!)")
+          (sequence "IMPORTANT(i!/!)" "|")
+          (sequence "PUNY(p!/!)" "|")
+          (sequence "ON(o!/!)" "|" "OFF(f!/!)")))
 #+END_SRC
 
 ** On Keyword colors
@@ -556,11 +715,56 @@
 
 #+BEGIN_SRC emacs-lisp
   (setq org-todo-keyword-faces
-    '(("TODO" . "red")
+    '(("TODO" . "OrangeRed1")
      ("DONE" . "green")
      ("IMPORTANT" . "red")
      ("ACTIVE" .  "deep sky blue")
+     ("PUNY". "orange")
+     ("ON" . "green")
+     ("OFF" . "red")
      ("On" . "green")
      ("Off" . "red")))
 #+END_SRC
 
+** On Enable dependency checking
+:LOGBOOK:
+- State "On"         from              [2019-05-09 Thu 17:29]
+:END:
+
+#+BEGIN_SRC emacs-lisp
+  (setq org-enforce-todo-checkbox-dependencies t)
+  (setq org-enforce-todo-dependencies t)
+#+END_SRC
+
+** On State logging
+:LOGBOOK:
+- State "On"         from              [2019-05-09 Thu 17:30]
+:END:
+
+#+BEGIN_SRC emacs-lisp
+  (setq org-log-done (quote time))
+  (setq org-log-into-drawer t)
+  (setq org-log-redeadline (quote time))
+  (setq org-log-refile (quote time))
+  (setq org-log-reschedule (quote time))
+#+END_SRC
+
+* Windows
+** Split focus right
+#+BEGIN_SRC emacs-lisp
+  (defun my-split-right ()
+    (interactive)
+    (split-window-right)
+    (other-window 1))
+
+  (global-set-key (kbd "C-x 3") 'my-split-right)
+#+END_SRC
+** Split focus below
+#+BEGIN_SRC emacs-lisp
+  (defun my-split-below ()
+    (interactive)
+    (split-window-below)
+    (other-window 1))
+
+  (global-set-key (kbd "C-x 2") 'my-split-below)
+#+END_SRC

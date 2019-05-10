@@ -1,1 +1,1 @@
-#+ARCHIVE: archive/todo.org
+#+ARCHIVE: ~/org/archive.org::datetree/* Finished Tasks
