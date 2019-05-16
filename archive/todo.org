@@ -1,0 +1,181 @@
+
+* 2019
+** 2019-05 May
+*** 2019-05-07 Tuesday
+**** Finished Tasks
+***** DONE format pc (Asker)
+CLOSED: [2019-05-07 Tue 08:02] DEADLINE: <2019-05-07 Tue 10:00> SCHEDULED: <2019-05-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-09 Thu 16:19
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-07 Tue 08:02]
+- Note taken on [2019-05-07 Tue 04:33] \\
+  Graphics card seems dead
+- Note taken on [2019-05-07 Tue 04:31] \\
+  Pc recived without hdd
+- State "ACTIVE"     from              [2019-05-07 Tue 02:43]
+:END:
+*** 2019-05-08 Wednesday
+**** Finished Tasks
+***** DONE Create stofa account [4/4]
+CLOSED: [2019-05-08 Wed 19:06]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-09 Thu 16:21
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Projects
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2019-05-08 Wed 19:06]
+:END:
+****** DONE Call stofa and unlock account
+CLOSED: [2019-05-08 Wed 19:05]
+Call stofa and talk about MitLogin
+- Me: 29 47 66 78
+- Tlf: 88 30 30 30
+- Kundenummer: 9358016
+
+SCHEDULED: <2019-05-02 Thu> DEADLINE: <2019-05-02 Thu 21:00>
+:LOGBOOK:
+- State "DONE"       from "IMPORTANT"  [2019-05-08 Wed 19:05]
+- State "IMPORTANT"  from              [2019-05-02 Thu 08:25]
+:END:
+
+****** DONE Disable wifi
+CLOSED: [2019-05-08 Wed 19:05]
+
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-08 Wed 19:05]
+- State "TODO"       from              [2019-05-02 Thu 08:28]
+:END:
+****** DONE Scan wifi and find unused channels
+CLOSED: [2019-05-08 Wed 19:06]
+
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-08 Wed 19:06]
+- State "TODO"       from              [2019-05-02 Thu 08:29]
+:END:
+
+****** DONE Change to one of the unused channels
+CLOSED: [2019-05-08 Wed 19:06]
+
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-08 Wed 19:06]
+- State "TODO"       from              [2019-05-02 Thu 08:28]
+:END:
+
+
+
+
+
+
+
+
+*** 2019-05-09 Thursday
+**** Finished Tasks
+***** DONE Take shower
+CLOSED: [2019-05-09 Thu 10:46]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-09 Thu 16:20
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "PUNY"       [2019-05-09 Thu 10:46]
+- State "PUNY"       from              [2019-05-09 Thu 09:59]
+:END:
+***** DONE Fix media laptop
+CLOSED: [2019-05-09 Thu 15:39] DEADLINE: <2019-05-09 Thu> SCHEDULED: <2019-05-09 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-09 Thu 16:20
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-09 Thu 15:39]
+- Note taken on [2019-05-09 Thu 08:09] \\
+  WARNING! Dont press enter at package selection
+- State "ACTIVE"     from "TODO"       [2019-05-09 Thu 07:53]
+- State "TODO"       from              [2019-05-09 Thu 02:09]
+:END:
+***** DONE Consider furniture placement
+CLOSED: [2019-05-09 Thu 15:40] DEADLINE: <2019-05-09 Thu> SCHEDULED: <2019-05-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-09 Thu 16:20
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-09 Thu 15:40]
+- State "TODO"       from              [2019-05-07 Tue 02:51]
+:END:
+
+- [X] Deteren if software is usefull for this
+***** DONE Go get som food
+DEADLINE: <2019-04-30 Tue 18:00> SCHEDULED: <2019-04-30 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-09 Thu 16:21
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Projects
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-04-30 Tue 23:55]
+- State "TODO"       from              [2019-04-30 Tue 15:52]
+:END:
+***** DONE Configure emacs [1/1]
+CLOSED: [2019-05-09 Thu 08:12]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-09 Thu 16:21
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Projects
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2019-05-09 Thu 08:12]
+:END:
+****** DONE Watch uncle Daves "Emacs" playlist [24/24]
+CLOSED: [2019-05-09 Thu 08:11]
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-09 Thu 08:11]
+- State "ACTIVE"     from              [2019-05-09 Thu 08:11]
+:END:
++ [X] Video 1
++ [X] Video 2
++ [X] Video 3
++ [X] Video 4
++ [X] Video 5
++ [X] Video 6
++ [X] Video 7
++ [X] Video 8
++ [X] Video 9
++ [X] Video 10
++ [X] Video 11
++ [X] Video 12
++ [X] Video 13
++ [X] Video 14
++ [X] Video 15
++ [X] Video 16
++ [X] Video 17
++ [X] Video 18
++ [X] Video 19
++ [X] Video 20
++ [X] Video 21
++ [X] Video 22
++ [X] Video 23
++ [X] Video 24
+

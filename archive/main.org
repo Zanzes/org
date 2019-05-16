@@ -1,0 +1,59 @@
+
+* 2019
+** 2019-05 May
+*** 2019-05-08 Wednesday
+**** Finished Tasks
+***** DONE Create stofa account [4/4]
+CLOSED: [2019-05-08 Wed 19:06]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-09 Thu 16:20
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Projects
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2019-05-08 Wed 19:06]
+:END:
+****** DONE Call stofa and unlock account
+CLOSED: [2019-05-08 Wed 19:05]
+Call stofa and talk about MitLogin
+- Me: 29 47 66 78
+- Tlf: 88 30 30 30
+- Kundenummer: 9358016
+
+SCHEDULED: <2019-05-02 Thu> DEADLINE: <2019-05-02 Thu 21:00>
+:LOGBOOK:
+- State "DONE"       from "IMPORTANT"  [2019-05-08 Wed 19:05]
+- State "IMPORTANT"  from              [2019-05-02 Thu 08:25]
+:END:
+
+****** DONE Disable wifi
+CLOSED: [2019-05-08 Wed 19:05]
+
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-08 Wed 19:05]
+- State "TODO"       from              [2019-05-02 Thu 08:28]
+:END:
+****** DONE Scan wifi and find unused channels
+CLOSED: [2019-05-08 Wed 19:06]
+
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-08 Wed 19:06]
+- State "TODO"       from              [2019-05-02 Thu 08:29]
+:END:
+
+****** DONE Change to one of the unused channels
+CLOSED: [2019-05-08 Wed 19:06]
+
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-08 Wed 19:06]
+- State "TODO"       from              [2019-05-02 Thu 08:28]
+:END:
+
+
+
+
+
+
+

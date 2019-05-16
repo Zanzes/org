@@ -170,4 +170,34 @@ CLOSED: [2019-05-09 Thu 08:11]
 + [X] Video 22
 + [X] Video 23
 + [X] Video 24
-
+*** 2019-05-10 Friday
+**** Finished Tasks
+***** DONE Ask x about DMT
+CLOSED: [2019-05-10 Fri 01:17] DEADLINE: <2019-05-09 Thu 12:00> SCHEDULED: <2019-05-07 Tue 12:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-12 Sun 22:06
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-10 Fri 01:17]
+- State "TODO"       from              [2019-05-07 Tue 03:14]
+:END:
+*** 2019-05-13 Monday
+**** Finished Tasks
+***** DONE Take shower
+CLOSED: [2019-05-13 Mon 00:35] DEADLINE: <2019-05-12 Sun> SCHEDULED: <2019-05-12 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-13 Mon 00:35
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-13 Mon 00:35]
+- State "ACTIVE"     from "TODO"       [2019-05-12 Sun 22:09]
+- State "TODO"       from              [2019-05-12 Sun 22:09]
+:END:

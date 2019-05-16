@@ -1,7 +1,9 @@
- #+TITLE: Main
+#+TITLE: Main
 #+ARCHIVE: ~/org/archive.org::datetree/* Main items
 
 * Links
+- [[file:devices.org][Devices]]
+- [[file:~/fuck_off_open/dues.org][Dues]]
 - [[file:lists.org][Lists]]
 - [[file:emacs-keys.org][Keys]]
 - [[file:notes.org][Notes]]
@@ -13,6 +15,13 @@
 3. [[file:config/lzconf.org][LZConfig]]
 4. [[file:~/.emacs.d/lzconf.org][Active LZConfig]]
 5. [[file:~/dev][Dev]]
+
+
+* Projects
+** Encrypt files
+** Project management
+** Fillout "dues"
+** Week scheduling
 
 
 * People
@@ -181,40 +190,6 @@ SCHEDULED: <2019-05-06 Mon>
 **** RAM:
 ***** 1G x 2 = 2G 
 
-*** 4. (Packard Bell)
-**** CPU:
-***** 
-
-**** RAM:
-***** 
-
-*** 5. ()
-**** CPU:
-*** 
-**** RAM:
-
-
-
-
-
-* Devices
-** Main pc
-*** Static ip
-6.6.6.6
-** Media laptop
-*** Static ip
-6.6.6.7
-** Laptop (Main)
-*** Static ip
-6.6.6.8
-** Wish Tab
-*** Static ip
-6.6.6.9
-
-** Phone (A5)
-*** Static ip
-6.6.6.10
-
 
 * Cube shopping lists
 ** Rapture cuve
@@ -226,9 +201,13 @@ SCHEDULED: <2019-05-06 Mon>
 ** Twist 3x3
 
 
-* Todo list [1/9]
+* Todo list [0/9]
 #+ARCHIVE: ~/org/archive.org::datetree/* Finished Tasks
 
+** TODO Call Leif
+:LOGBOOK:
+- State "TODO"       from              [2019-05-13 Mon 15:41]
+:END:
 ** ACTIVE Cleaning [0/5]
 :LOGBOOK:
 - State "ACTIVE"     from "TODO"       [2019-05-09 Thu 16:22]
@@ -296,12 +275,6 @@ SCHEDULED: <2019-05-09 Thu>
 DEADLINE: <2019-05-10 Fri> SCHEDULED: <2019-05-08 Wed>
 :LOGBOOK:
 - State "TODO"       from              [2019-05-07 Tue 03:12]
-:END:
-** DONE Ask x about DMT
-CLOSED: [2019-05-10 Fri 01:17] DEADLINE: <2019-05-09 Thu 12:00> SCHEDULED: <2019-05-07 Tue 12:00>
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2019-05-10 Fri 01:17]
-- State "TODO"       from              [2019-05-07 Tue 03:14]
 :END:
 ** TODO Fix mouse for benjamin [0/2]
 :LOGBOOK:
