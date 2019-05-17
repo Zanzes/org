@@ -2,15 +2,14 @@
 
 * Devices
 
-| PC                         | CPU                        | Clock speed |   Cores | RAM          | OS                         |
-|----------------------------+----------------------------+-------------+---------+--------------+----------------------------|
-| Cooler Master (Stationary) | Intel(R) Core(TM) i7-2600K | 3.40 GHz    |       8 | 8G x 8 = 32G | Ubuntu 18.04 and Windows 7 |
-| Medion laptop              | Intel core 2 duo           | 1.5 GHz     |       2 | 1G x 2 = 2G  | None                       |
-| Acer laptop                | AMD Athlon 64 x2 TK-55     | 1.8 GHz     | Unknown | 1G x 2 = 2G  | None                       |
-| Lenovo laptop              | Intel Celeron 530          | 1.73 GHz    | Unknown | 1G x 2 = 2G  | None                       |
-| Acer laptop                | Intel(R) Core(TM) i5-4200U | 1.60 GHz    |       4 | xG x x = 8G  | Ubuntu 18.04               |
-|                            |                            |             |         |              |                            |
-|----------------------------+----------------------------+-------------+---------+--------------+----------------------------|
+| PC                         | CPU                        | Clock speed |   Cores | RAM          | OS                         | Static IP |
+|----------------------------+----------------------------+-------------+---------+--------------+----------------------------+-----------|
+| Cooler Master (Stationary) | Intel(R) Core(TM) i7-2600K | 3.40 GHz    |       8 | 8G x 8 = 32G | Ubuntu 18.04 and Windows 7 | 6.6.6.6   |
+| Medion laptop              | Intel core 2 duo           | 1.5 GHz     |       2 | 1G x 2 = 2G  | None                       | None      |
+| Acer laptop                | AMD Athlon 64 x2 TK-55     | 1.8 GHz     | Unknown | 1G x 2 = 2G  | None                       | None      |
+| Lenovo laptop              | Intel Celeron 530          | 1.73 GHz    | Unknown | 1G x 2 = 2G  | None                       | None      |
+| Acer laptop                | Intel(R) Core(TM) i5-4200U | 1.60 GHz    |       4 | xG x x = 8G  | Ubuntu 18.04               | 6.6.6.7   |
+|----------------------------+----------------------------+-------------+---------+--------------+----------------------------+-----------|
 
 ** Main pc
 *** Static ip
