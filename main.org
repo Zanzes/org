@@ -17,67 +17,30 @@
 5. [[file:~/dev][Dev]]
    
 ** Protected files
-1. [[file:fuck_off/dues.org][Dues]]
+1. [[file:fuck_off/auth.org][Auth]]
+2. [[file:fuck_off/dues.org][Dues]]
 
 
 * Projects
-** Encrypt files
-** Project management
-** Fillout "dues"
-** Setup python completion
-** Week scheduling
+** Fix python completion
+** Deside on system for Week scheduling
 
 
-* People
-** Sander
-*** DONE Try new shit
-SCHEDULED: <2019-05-01 Wed>
+* Reading
+** TODO Book about logic
 :LOGBOOK:
-- State "DONE"       from "ACTIVE"     [2019-05-01 Wed 17:02]
-- State "ACTIVE"     from              [2019-05-01 Wed 16:10]
-:END:
-
-*** DONE Decide on amount
-CLOSED: [2019-05-05 Sun 13:34] DEADLINE: <2019-05-02 Thu> SCHEDULED: <2019-05-01 Wed>
-:LOGBOOK:
-- State "DONE"       from "ACTIVE"     [2019-05-05 Sun 13:34]
-- State "ACTIVE"     from              [2019-05-01 Wed 17:03]
-:END:
-
-** Frede
-*** 300 - 500 ?
-
-** Patrick
-*** 200 kr.
-SCHEDULED: <2019-04-30 Tue>
-
-** Mark? (Patrick)
-*** 200 kr.
-SCHEDULED: <2019-04-30 Tue>
-
-** Simon (kim)
-*** DONE Fix arduino
-CLOSED: [2019-05-06 Mon 05:42] SCHEDULED: <2019-05-02 Thu 21:00>
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2019-05-06 Mon 05:42]
-- State "TODO"       from              [2019-05-02 Thu 00:50]
-:END:
-
-** Mormor
-*** TODO Pay grandma 170,- kr
-SCHEDULED: <2019-05-06 Mon>
-:LOGBOOK:
-- Rescheduled from "[2019-05-02 Thu]" on [2019-05-06 Mon 05:41]
-- State "TODO"       from              [2019-05-02 Thu 00:52]
+- State "TODO"       from              [2019-05-19 Sun 22:12]
 :END:
 
 
-* Todo list [0/9]
+* Todo list [0/7]
 #+ARCHIVE: ~/org/archive.org::datetree/* Finished Tasks
 
-** TODO Call Leif
+** ACTIVE Solder synth for Vedran
+DEADLINE: <2019-05-24 Fri> SCHEDULED: <2019-05-20 Mon>
 :LOGBOOK:
-- State "TODO"       from              [2019-05-13 Mon 15:41]
+- State "ACTIVE"     from "TODO"       [2019-05-18 Sat 19:45]
+- State "TODO"       from              [2019-05-07 Tue 03:18]
 :END:
 ** ACTIVE Cleaning [0/5]
 :LOGBOOK:
@@ -85,24 +48,28 @@ SCHEDULED: <2019-05-06 Mon>
 - State "TODO"       from              [2019-05-09 Thu 16:22]
 :END:
 
-*** ACTIVE Bedroom [7/10]
-DEADLINE: <2019-05-03 Fri> SCHEDULED: <2019-04-30 Tue>
+*** ACTIVE Bedroom [10/10]
 :LOGBOOK:
+- State "ACTIVE"     from "TODO"       [2019-05-22 Wed 19:02]
+- State "TODO"       from "DONE"       [2019-05-22 Wed 19:01]
+- State "DONE"       from "ACTIVE"     [2019-05-20 Mon 13:22]
 - State "ACTIVE"     from "TODO"       [2019-05-09 Thu 16:57]
 - State "TODO"       from              [2019-05-09 Thu 16:56]
 :END:
 
+Misc:
+
 The move:
 - [X] Move furniture
-- [ ] Clean floor
+- [X] Clean floor
 
 Wires:
 - [X] Sort wires
 - [X] Consider and chose storage location
 - [X] Put wires in wrack
 - [X] Find place for rack
-- [ ] Consider and chose storage location(Big wires and scratch wires)
-- [ ] Put away big and scratch wire
+- [X] Consider and chose storage location(Big wires and scratch wires)
+- [X] Put away big and scratch wire
 
 Tools:
 - [X] Sort tools
@@ -117,10 +84,15 @@ Tools:
 - [ ] Right shelv
 - [ ] Clear window
 
-*** TODO Kitchen [0/0]
+*** TODO Kitchen [0/3]
 :LOGBOOK:
 - State "TODO"       from              [2019-05-09 Thu 16:57]
 :END:
+
+1. [ ] Clear a path
+2. [ ] Clear Tables
+3. [ ] Pant
+
 *** TODO Bathroom [0/0]
 :LOGBOOK:
 - State "TODO"       from              [2019-05-09 Thu 16:57]
@@ -130,20 +102,16 @@ Tools:
 - State "TODO"       from              [2019-05-09 Thu 16:57]
 :END:
 - [ ] Closet
-
-** ACTIVE Fix laptop (Asker)
-DEADLINE: <2019-05-07 Tue 10:00> SCHEDULED: <2019-05-07 Tue>
+** TODO Call Leif
 :LOGBOOK:
-- State "ACTIVE"     from              [2019-05-07 Tue 02:43]
+- State "TODO"       from              [2019-05-13 Mon 15:41]
 :END:
 
 ** TODO Try new HDD in pc (Asker)
-SCHEDULED: <2019-05-09 Thu>
 :LOGBOOK:
 - State "TODO"       from              [2019-05-08 Wed 18:55]
 :END:
 ** TODO Contact Frederik about Rubik's cube
-DEADLINE: <2019-05-10 Fri> SCHEDULED: <2019-05-08 Wed>
 :LOGBOOK:
 - State "TODO"       from              [2019-05-07 Tue 03:12]
 :END:
@@ -154,18 +122,7 @@ DEADLINE: <2019-05-10 Fri> SCHEDULED: <2019-05-08 Wed>
 
 - [ ] Check wires
 - [ ] Replace wires
-
-** TODO Solder synth for Vedran
-:LOGBOOK:
-- State "TODO"       from              [2019-05-07 Tue 03:18]
-:END:
-** TODO Crack IMac for P
-SCHEDULED: <2019-05-08 Wed>
-:LOGBOOK:
-- State "TODO"       from              [2019-05-07 Tue 03:21]
-:END:
 ** IMPORTANT Wait for B to delever stuff from M
-DEADLINE: <2019-05-07 Tue 22:00> SCHEDULED: <2019-05-07 Tue>
 :LOGBOOK:
 - New deadline from "[2019-05-06 Mon 22:00]" on [2019-05-07 Tue 08:04]
 - Rescheduled from "[2019-05-06 Mon]" on [2019-05-07 Tue 08:04]

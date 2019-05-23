@@ -1,6 +1,41 @@
 
 * 2019
 ** 2019-05 May
+*** 2019-05-05 Sunday
+**** Main items
+***** DONE Decide on amount
+CLOSED: [2019-05-05 Sun 13:34] DEADLINE: <2019-05-02 Thu> SCHEDULED: <2019-05-01 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-18 Sat 19:33
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: People/Sander
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-05 Sun 13:34]
+- State "ACTIVE"     from              [2019-05-01 Wed 17:03]
+:END:
+
+
+*** 2019-05-06 Monday
+**** Main items
+***** DONE Fix arduino
+CLOSED: [2019-05-06 Mon 05:42] SCHEDULED: <2019-05-02 Thu 21:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-18 Sat 19:33
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: People/Simon (kim)
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-06 Mon 05:42]
+- State "TODO"       from              [2019-05-02 Thu 00:50]
+:END:
+
+
+
 *** 2019-05-07 Tuesday
 **** Finished Tasks
 ***** DONE format pc (Asker)
@@ -201,3 +236,63 @@ CLOSED: [2019-05-13 Mon 00:35] DEADLINE: <2019-05-12 Sun> SCHEDULED: <2019-05-12
 - State "ACTIVE"     from "TODO"       [2019-05-12 Sun 22:09]
 - State "TODO"       from              [2019-05-12 Sun 22:09]
 :END:
+*** 2019-05-18 Saturday
+**** Main items
+***** DONE Pay grandma 170,- kr
+CLOSED: [2019-05-18 Sat 19:31] SCHEDULED: <2019-05-06 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-18 Sat 19:33
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: People/Mormor
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-18 Sat 19:31]
+- Rescheduled from "[2019-05-02 Thu]" on [2019-05-06 Mon 05:41]
+- State "TODO"       from              [2019-05-02 Thu 00:52]
+:END:
+***** DONE Try new shit
+SCHEDULED: <2019-05-01 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-18 Sat 19:33
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: People/Sander
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-01 Wed 17:02]
+- State "ACTIVE"     from              [2019-05-01 Wed 16:10]
+:END:
+
+**** Finished Tasks
+***** DONE Crack IMac for P
+CLOSED: [2019-05-18 Sat 19:44] SCHEDULED: <2019-05-08 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-18 Sat 19:44
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-18 Sat 19:44]
+- State "TODO"       from              [2019-05-07 Tue 03:21]
+:END:
+*** 2019-05-19 Sunday
+**** Finished Tasks
+***** DONE Fix laptop (Asker)
+CLOSED: [2019-05-19 Sun 21:53] DEADLINE: <2019-05-07 Tue 10:00> SCHEDULED: <2019-05-07 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-19 Sun 21:54
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-19 Sun 21:53]
+- State "ACTIVE"     from              [2019-05-07 Tue 02:43]
+:END:
+
