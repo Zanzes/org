@@ -1,133 +1,33 @@
 #+TITLE: Main
 #+ARCHIVE: ~/org/archive.org::datetree/* Main items
 
+
 * Links
+- [[file:algorithms.org][Algorithms]]
 - [[file:cubes.org][Cubes]]
 - [[file:devices.org][Devices]]
 - [[file:lists.org][Lists]]
 - [[file:emacs-keys.org][Keys]]
 - [[file:notes.org][Notes]]
+- [[file:schedule.org][Schedule]]
 - [[file:todo.org][Todo]]
-  
-** Emacs config files 
+
+
+** Config files
+1. [[file:~/%C2%A4/.lzrc][.lzrc]]
+
+** Emacs Config files 
 1. [[file:config/init.el][Init]]
 2. [[file:~/.emacs.d/init.el][Active init file]]
 3. [[file:config/lzconf.org][LZConfig]]
 4. [[file:~/.emacs.d/lzconf.org][Active LZConfig]]
 5. [[file:~/dev][Dev]]
    
-** Protected files
+** Protcected files
 1. [[file:fuck_off/auth.org][Auth]]
 2. [[file:fuck_off/dues.org][Dues]]
 
 
-* Projects
-** Fix python completion
-** Deside on system for Week scheduling
-
-
-* Reading
-** TODO Book about logic
-:LOGBOOK:
-- State "TODO"       from              [2019-05-19 Sun 22:12]
-:END:
-
-
-* Todo list [0/7]
-#+ARCHIVE: ~/org/archive.org::datetree/* Finished Tasks
-
-** ACTIVE Solder synth for Vedran
-DEADLINE: <2019-05-24 Fri> SCHEDULED: <2019-05-20 Mon>
-:LOGBOOK:
-- State "ACTIVE"     from "TODO"       [2019-05-18 Sat 19:45]
-- State "TODO"       from              [2019-05-07 Tue 03:18]
-:END:
-** ACTIVE Cleaning [0/5]
-:LOGBOOK:
-- State "ACTIVE"     from "TODO"       [2019-05-09 Thu 16:22]
-- State "TODO"       from              [2019-05-09 Thu 16:22]
-:END:
-
-*** ACTIVE Bedroom [10/10]
-:LOGBOOK:
-- State "ACTIVE"     from "TODO"       [2019-05-22 Wed 19:02]
-- State "TODO"       from "DONE"       [2019-05-22 Wed 19:01]
-- State "DONE"       from "ACTIVE"     [2019-05-20 Mon 13:22]
-- State "ACTIVE"     from "TODO"       [2019-05-09 Thu 16:57]
-- State "TODO"       from              [2019-05-09 Thu 16:56]
-:END:
-
-Misc:
-
-The move:
-- [X] Move furniture
-- [X] Clean floor
-
-Wires:
-- [X] Sort wires
-- [X] Consider and chose storage location
-- [X] Put wires in wrack
-- [X] Find place for rack
-- [X] Consider and chose storage location(Big wires and scratch wires)
-- [X] Put away big and scratch wire
-
-Tools:
-- [X] Sort tools
-- [X] Place tools in storage
-
-*** TODO Living room [0/3]
-:LOGBOOK:
-- State "TODO"       from              [2019-05-09 Thu 16:57]
-:END:
-
-- [ ] Left shelv
-- [ ] Right shelv
-- [ ] Clear window
-
-*** TODO Kitchen [0/3]
-:LOGBOOK:
-- State "TODO"       from              [2019-05-09 Thu 16:57]
-:END:
-
-1. [ ] Clear a path
-2. [ ] Clear Tables
-3. [ ] Pant
-
-*** TODO Bathroom [0/0]
-:LOGBOOK:
-- State "TODO"       from              [2019-05-09 Thu 16:57]
-:END:
-*** TODO Hallway [0/1]
-:LOGBOOK:
-- State "TODO"       from              [2019-05-09 Thu 16:57]
-:END:
-- [ ] Closet
-** TODO Call Leif
-:LOGBOOK:
-- State "TODO"       from              [2019-05-13 Mon 15:41]
-:END:
-
-** TODO Try new HDD in pc (Asker)
-:LOGBOOK:
-- State "TODO"       from              [2019-05-08 Wed 18:55]
-:END:
-** TODO Contact Frederik about Rubik's cube
-:LOGBOOK:
-- State "TODO"       from              [2019-05-07 Tue 03:12]
-:END:
-** TODO Fix mouse for benjamin [0/2]
-:LOGBOOK:
-- State "TODO"       from              [2019-05-07 Tue 03:17]
-:END:
-
-- [ ] Check wires
-- [ ] Replace wires
-** IMPORTANT Wait for B to delever stuff from M
-:LOGBOOK:
-- New deadline from "[2019-05-06 Mon 22:00]" on [2019-05-07 Tue 08:04]
-- Rescheduled from "[2019-05-06 Mon]" on [2019-05-07 Tue 08:04]
-- State "IMPORTANT"  from              [2019-05-06 Mon 18:46]
-:END:
 
 
 

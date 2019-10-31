@@ -1,0 +1,41 @@
+#+TITLE: Dues
+#+ARCHIVE: ~/org/archive.org::datetree/* Dues
+
+    | Name                       |  =?= |         In |        Out |      Total |
+    | <26>                       | <r4> |      <r10> |      <r10> |      <r10> |
+    |----------------------------+------+------------+------------+------------|
+    | Rasmus (Gården)            |      |       0 kr |    1500 kr |   -1500 kr |
+    | Markus (Odense)            |      |       0 kr |       0 kr |          0 |
+    | Patrick                    |      |       0 kr |       0 kr |          0 |
+    | Bubbi                      |  50% |     200 kr |       0 kr |     200 kr |
+    | Mikkel                     |      |    3500 kr |       0 kr |    3500 kr |
+    | Frederik                   |  90% |     755 kr |       0 kr |     755 kr |
+    | Cille                      |  50% |     200 kr |       0 kr |     200 kr |
+    | Emil                       |      |     500 kr |       0 kr |     500 kr |
+    |----------------------------+------+------------+------------+------------|
+    | Total                      |      |    5155 kr |    1500 kr |    3655 kr |
+    #+TBLFM: @>$5=vsum(@3..@-1)::@>$3=vsum(@3..@-1)::@>$4=vsum(@3..@-1)::$5=$3-$4
+
+#+BEGIN_CENTER
+Everything should be made as simple as possible, \\
+but not any simpler
+#+END_CENTER
+
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler
+#+END_QUOTE
+
+
+#+BEGIN_VERSE
+ Great clouds overhead
+ Tiny black birds rise and fall
+ Snow covers Emacs
+
+    ---AlexSchroeder
+#+END_VERSE

@@ -1,0 +1,183 @@
+#+Title: Schedule
+#+ARCHIVE: ~/org/archive.org::datetree/* Scheduled
+
+* Schedule
+** Week
+*** Monday
+:LOGBOOK:
+- State "ACTIVE"     from "TODO"       [2019-10-28 Mon 10:27]
+- State "TODO"       from              [2019-10-28 Mon 10:27]
+:END:
+**** Work
+SCHEDULED: <2019-11-04 Mon 09:30>
+*** Teusday
+**** Meeting with Hachem
+SCHEDULED: <2019-10-29 Tue 10:00>
+**** Work
+SCHEDULED: <2019-11-05 Tue 9:30>
+*** Wensday
+:LOGBOOK:
+- State "ACTIVE"     from "TODO"       [2019-10-30 ons 08:59]
+- State "TODO"       from              [2019-10-30 ons 08:59]
+:END:
+*** ACTIVE Thirsday
+:LOGBOOK:
+- State "ACTIVE"     from "TODO"       [2019-10-31 tor 05:29]
+- State "TODO"       from              [2019-10-31 tor 05:29]
+- State "TODO"       from "ACTIVE"     [2019-10-27 Sun 14:13]
+:END:
+
+**** Work
+SCHEDULED: <2019-10-31 Thu 09:30>
+
+**** ACTIVE Finish cleaning [0/4]
+:LOGBOOK:
+- State "ACTIVE"     from "TODO"       [2019-10-24 Thu 17:55]
+- State "TODO"       from              [2019-10-24 Thu 10:47]
+:END:
+
+***** TODO Hallway
+:LOGBOOK:
+- State "TODO"       from              [2019-10-24 Thu 10:47]
+:END:
+
+***** TODO Living room
+:LOGBOOK:
+- State "TODO"       from              [2019-10-24 Thu 10:47]
+:END:
+
+***** TODO Kitchen
+:LOGBOOK:
+- State "TODO"       from              [2019-10-24 Thu 10:48]
+:END:
+
+***** TODO Bedroom
+:LOGBOOK:
+- State "TODO"       from              [2019-10-24 Thu 10:48]
+:END:
+
+*** Friday
+**** Work
+SCHEDULED: <2019-11-01 Fri 09:30>
+*** Saturday
+*** Sonday
+:LOGBOOK:
+- State "OFF"        from "ON"         [2019-10-28 Mon 10:27]
+- State "ON"         from "PUNY"       [2019-10-28 Mon 10:27]
+- State "PUNY"       from "IMPORTANT"  [2019-10-28 Mon 10:27]
+- State "IMPORTANT"  from "DONE"       [2019-10-28 Mon 10:27]
+- State "DONE"       from "ACTIVE"     [2019-10-28 Mon 10:27]
+- State "ACTIVE"     from "TODO"       [2019-10-27 Sun 14:13]
+- State "TODO"       from              [2019-10-27 Sun 14:13]
+:END:
+
+
+** Day Plan
+*** Everyday
+**** Cubing (30 minutes)
+*** Weekday
+*** Weekend
+**** Free coding (30 - 60 minutes)
+
+
+* Todo
+** Rush Jobs
+*** Selenium toolkit
+- Possible different versions (python, C#, java)
+
+  
+** Todo Long term
+*** TODO Read book about logic
+
+*** DONE Try new HDD in pc (Asker)
+CLOSED: [2019-10-24 Thu 17:56]
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-10-24 Thu 17:56]
+- State "TODO"       from              [2019-05-08 Wed 18:55]
+:END:
+
+*** TODO Create image pre-buffer/downloader
+:LOGBOOK:
+- State "TODO"       from              [2019-06-21 Fri 14:22]
+:END:
+
+1. Load/Download the next ~100 images in advance
+
+*** TODO Research and build 5v to 10v converter
+:LOGBOOK:
+- State "TODO"       from              [2019-06-26 Wed 21:47]
+:END:
+
+*** TODO Deside on system for Week scheduling
+:LOGBOOK:
+- State "TODO"       from              [2019-06-26 Wed 21:47]
+:END:
+
+*** TODO Find appartment
+:LOGBOOK:
+- State "TODO"       from              [2019-09-10 Tue 23:01]
+:END:
+
+
+
+
+
+** Projects
+*** TODO Vlc playlist creator in python
+:LOGBOOK:
+- State "TODO"       from "ACTIVE"     [2019-10-24 Thu 17:56]
+- State "ACTIVE"     from "TODO"       [2019-09-24 Tue 05:35]
+- State "TODO"       from              [2019-09-24 Tue 02:23]
+:END:
+
+Playlist format:
+
+#+BEGIN_SRC xml
+  <?xml version="1.0" encoding="UTF-8"?>
+  <playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <trackList>
+      <track><location>file:///$PATH</location></track>
+    </trackList>
+  </playlist>
+#+END_SRC
+
+*** TODO Fix mouse for benjamin [0/2]
+:LOGBOOK:
+- State "TODO"       from              [2019-05-07 Tue 03:17]
+:END:
+
+- [ ] Check wires
+- [ ] Replace wires
+
+*** TODO IP based copy daemon
+:LOGBOOK:
+- State "TODO"       from              [2019-05-31 Fri 09:37]
+:END:
+
+1. Create a daemon can schedule tasks
+2. Create a file/directory sync task
+3. Sync files
+   - Read files in .lzsync directory
+   - filenames should corespond to ips of targets
+   - files should contain synced paths
+
+*** TODO Rubik's scramble generator
+:LOGBOOK:
+- State "TODO"       from              [2019-06-21 Fri 14:53]
+:END:
+*** TODO Pixel-Art Brakdown 
+   Cut/Focus images into rubiks cubes
+*** TODO Ascii text to art generator
+   - URL: http://www.webestools.com/stylish-text-generator-nickname-message-msn-facebook-windows-live-messenger-text-accents-effect-ascii-text.html
+
+*** TODO Firefox extension for subject browsing
+:LOGBOOK:
+- State "TODO"       from              [2019-09-06 Fri 02:57]
+:END:
+Firefox extension where every tab, window and session are gruped by subject
+
+*** ACTIVE Bluetooth cubing
+:LOGBOOK:
+- State "ACTIVE"     from "TODO"       [2019-10-27 Sun 16:38]
+- State "TODO"       from              [2019-10-27 Sun 16:37]
+:END:

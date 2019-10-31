@@ -295,4 +295,162 @@ CLOSED: [2019-05-19 Sun 21:53] DEADLINE: <2019-05-07 Tue 10:00> SCHEDULED: <2019
 - State "DONE"       from "ACTIVE"     [2019-05-19 Sun 21:53]
 - State "ACTIVE"     from              [2019-05-07 Tue 02:43]
 :END:
+*** 2019-05-23 Thursday
+**** Finished Tasks
+***** DONE Solder synth for Vedran
+CLOSED: [2019-05-23 Thu 23:18] DEADLINE: <2019-05-24 Fri> SCHEDULED: <2019-05-20 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-23 Thu 23:18
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-05-23 Thu 23:18]
+- State "ACTIVE"     from "TODO"       [2019-05-18 Sat 19:45]
+- State "TODO"       from              [2019-05-07 Tue 03:18]
+:END:
+*** 2019-05-30 Thursday
+**** Finished Tasks
+***** DONE Get backing paper
+CLOSED: [2019-05-30 Thu 02:53]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-30 Thu 08:13
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-05-30 Thu 02:53]
+- State "TODO"       from              [2019-05-25 Sat 09:01]
+:END:
+** 2019-06 June
+*** 2019-06-07 Friday
+**** Finished Tasks
+***** DONE Tell Frederik im home
+CLOSED: [2019-06-07 Fri 14:15] DEADLINE: <2019-06-07 Fri 16:00> SCHEDULED: <2019-06-07 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-06-07 Fri 14:15
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "IMPORTANT"  [2019-06-07 Fri 14:15]
+- State "IMPORTANT"  from              [2019-06-07 Fri 12:42]
+:END:
+*** 2019-06-26 Wednesday
+**** Finished Tasks
+***** NEGLECT Wait for B to delever stuff from M
+CLOSED: [2019-06-26 Wed 21:45]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-06-26 Wed 21:45
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: NEGLECT
+:END:
+:LOGBOOK:
+- State "NEGLECT"    from "IMPORTANT"  [2019-06-26 Wed 21:45]
+- New deadline from "[2019-05-06 Mon 22:00]" on [2019-05-07 Tue 08:04]
+- Rescheduled from "[2019-05-06 Mon]" on [2019-05-07 Tue 08:04]
+- State "IMPORTANT"  from              [2019-05-06 Mon 18:46]
+:END:
+***** DONE Call Leif
+CLOSED: [2019-06-26 Wed 21:46]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-06-26 Wed 21:46
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-06-26 Wed 21:46]
+- State "TODO"       from              [2019-05-13 Mon 15:41]
+:END:
+***** DONE Contact Frederik about Rubik's cube
+CLOSED: [2019-06-26 Wed 21:46]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-06-26 Wed 21:46
+:ARCHIVE_FILE: ~/org/main.org
+:ARCHIVE_OLPATH: Todo list
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2019-06-26 Wed 21:46]
+- State "TODO"       from              [2019-05-07 Tue 03:12]
+:END:
+** 2019-10 oktober
+*** 2019-10-24 torsdag
+**** Scheduled
+***** DONE Meeting with Schnider [2/2]
+CLOSED: [2019-10-24 Thu 17:54]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-10-31 tor 05:31
+:ARCHIVE_FILE: ~/org/schedule.org
+:ARCHIVE_OLPATH: Schedule/Week/Thirsday
+:ARCHIVE_CATEGORY: schedule
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-10-24 Thu 17:54]
+- State "ACTIVE"     from "TODO"       [2019-10-24 Thu 17:54]
+- State "TODO"       from              [2019-10-24 Thu 10:07]
+:END:
 
+****** DONE Get time from Leif
+CLOSED: [2019-10-24 Thu 10:07] SCHEDULED: <2019-10-24 Thu>
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-10-24 Thu 10:07]
+- State "ACTIVE"     from "TODO"       [2019-10-24 Thu 10:07]
+- State "TODO"       from              [2019-10-24 Thu 10:07]
+:END:
+****** DONE Go to meeting
+CLOSED: [2019-10-24 Thu 17:54] SCHEDULED: <2019-10-24 Thu 11:10>
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-10-24 Thu 17:54]
+- State "ACTIVE"     from "TODO"       [2019-10-24 Thu 17:54]
+- State "TODO"       from              [2019-10-24 Thu 10:07]
+:END:
+***** DONE Talk to Hachem [3/3]
+CLOSED: [2019-10-24 Thu 17:55]
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-10-31 tor 05:31
+:ARCHIVE_FILE: ~/org/schedule.org
+:ARCHIVE_OLPATH: Schedule/Week/Thirsday
+:ARCHIVE_CATEGORY: schedule
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-10-24 Thu 17:55]
+- State "ACTIVE"     from "TODO"       [2019-10-24 Thu 17:54]
+- State "TODO"       from              [2019-10-24 Thu 10:07]
+:END:
+
+****** DONE Message sent
+CLOSED: [2019-10-24 Thu 10:09]
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-10-24 Thu 10:09]
+- State "ACTIVE"     from "TODO"       [2019-10-24 Thu 10:09]
+- State "TODO"       from              [2019-10-24 Thu 10:09]
+:END:
+****** DONE Await awnser
+CLOSED: [2019-10-24 Thu 14:36]
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-10-24 Thu 14:36]
+- State "ACTIVE"     from "TODO"       [2019-10-24 Thu 10:09]
+- State "TODO"       from              [2019-10-24 Thu 10:09]
+:END:
+****** DONE Schedule meeting 
+CLOSED: [2019-10-24 Thu 17:55] SCHEDULED: <2019-10-29 Tue 10:00>
+:LOGBOOK:
+- State "DONE"       from "ACTIVE"     [2019-10-24 Thu 17:55]
+- State "ACTIVE"     from "TODO"       [2019-10-24 Thu 17:55]
+- Rescheduled from "[2019-10-29 Tue]" on [2019-10-24 Thu 14:37]
+- State "TODO"       from              [2019-10-24 Thu 14:36]
+:END:

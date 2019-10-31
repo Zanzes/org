@@ -1,0 +1,25 @@
+#+TITLE: Algorithms
+#+ARCHIVE: ~/org/archive.org::datetree/* Algorithms
+
+* CFOP
+** OLL
+*** 2-Look OLL
+**** 1
+***** Edges:
+- Dot: F (R U R' U') F' f (R U R' U') f' 
+- L shape: f (R U R' U') f' 
+- Line: F (R U R' U') F'
+
+**** 2
+***** No corners solved:
+H: F (R U R' U')3 F'
+Pi: R U2 (R2 U' R2 U' R2) U2 R 
+
+***** 1 corner solved: 
+Sune: R U R' U R U2 R'
+Antisune: L' U' L U' L' U2 L 
+
+***** 2 corners solved: 
+L: x (R' U R D') (R' U' R D) [x means face the bottom] 
+T: x (L U R' U') (L' U R U') [x means face the bottom] 
+U: R2 D R' U2 R D' R' U2 R'

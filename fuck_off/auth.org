@@ -1,0 +1,35 @@
+* gcal
+ID: 906755295396-aj3umljuhuta30b14ljiaekkk6t5c37t.apps.googleusercontent.com
+Secret: 7aDQv8WtZ3x6ZUOtdoOiGiTT
+
+* Gmail
+** Porn account
+mail: jononthebun@gmail.com
+name: Joe Doe
+pass: eaniko16
+date: may 1. 1980
+sex:  male
+
+** Work
+mail: jalokin.nesredna@gmail.com
+name: Nikolaj Andersen
+pass: acyanogen2
+date: ? 1. 1900
+sex: rather not say
+
+* Wickr
+user: jx2o
+pass: eaniko16
+
+* Router
+user: stofa
+pass: e3BB3eZsztAc65V97W
+
+user: stofa
+pass: TnuZeb4DHWxz
+
+user: stofa
+pass: admin
+
+user: stofa
+pass: Acyanogen2
