@@ -10,6 +10,7 @@
 - [[file:emacs-keys.org][Keys]]
 - [[file:notes.org][Notes]]
 - [[file:schedule.org][Schedule]]
+- [[file:snippets.org][Snippets]]
 - [[file:todo.org][Todo]]
 
 
