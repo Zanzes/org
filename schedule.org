@@ -1,7 +1,6 @@
 #+Title: Schedule
 #+ARCHIVE: ~/org/archive.org::datetree/* Scheduled
 
-
 * Schedule
 ** Week
 *** Monday

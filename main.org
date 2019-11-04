@@ -1,7 +1,6 @@
 #+TITLE: Main
 #+ARCHIVE: ~/org/archive.org::datetree/* Main items
 
-
 * Links
 - [[file:algorithms.org][Algorithms]]
 - [[file:cubes.org][Cubes]]

@@ -2,7 +2,7 @@
 #+ARCHIVE: ~/org/archive.org::datetree/* Archived notes
 
 * Notes
-** Download 
+** Download
 "The greatest sciensfiction stories of the 21th cebtury"
 
 
@@ -11,27 +11,3 @@
 *** ------------- Roll Owed Cigs! --------------
 **** ------------ Roll Owed Cigs! --------------
 ***** ---------- Roll Owed Cigs! ---------------
-
-
-
-
-
-
-
-
-* Work notes
-** Remember
-- [X] Image papers
-- [X] Rubik's Cube
-- [X] Charger
-- [X] Headset
-- [X] Cigeretes
-- [X] Lighter
-- [X] Phone
-- [X] Computer
-- [X] Cash for bus
-- [ ] Keys
-
-** Skip
-- [ ] Keyboard
-- [ ] Mouse

@@ -1,0 +1,20 @@
+#+Title: Templates
+#+ARCHIVE: ~/org/archive.org::datetree/* Templates
+
+* Work
+** Before leaving
+*** Remember
+- [ ] Cash for bus
+- [ ] Charger
+- [ ] Cigeretes
+- [ ] Computer
+- [ ] Headset
+- [ ] Keys
+- [ ] Lighter
+- [ ] Phone
+- [ ] Rubik's Cube
+
+*** Temporary
+- [ ] Image papers
+- [ ] Keyboard
+- [ ] Mouse

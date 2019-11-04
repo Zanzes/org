@@ -1,0 +1,37 @@
+#+Title: Day Plan
+#+ARCHIVE: ~/org/archive.org::datetree/* day-plan
+
+* Monday
+** Work
+SCHEDULED: <2019-11-04 Mon 09:30>
+* Teusday
+** Meeting with Hachem
+SCHEDULED: <2019-10-29 Tue 10:00>
+** Work
+SCHEDULED: <2019-11-05 Tue 9:30>
+* Wensday
+* Thirsday
+:LOGBOOK:
+- State "ACTIVE"     from "TODO"       [2019-10-31 tor 05:29]
+- State "TODO"       from              [2019-10-31 tor 05:29]
+- State "TODO"       from "ACTIVE"     [2019-10-27 Sun 14:13]
+:END:
+
+** DONE Work
+CLOSED: [2019-11-02 lør 20:57] SCHEDULED: <2019-10-31 Thu 09:30>
+:LOGBOOK:
+- State "DONE"       from              [2019-11-02 lør 20:57]
+:END:
+
+* Friday
+** DONE Work
+CLOSED: [2019-11-02 lør 20:55] SCHEDULED: <2019-11-01 Fri 09:30>
+:LOGBOOK:
+- State "DONE"       from              [2019-11-02 lør 20:55]
+:END:
+
+
+* Saturday
+* Sonday
+
+
